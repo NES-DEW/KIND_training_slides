@@ -1,0 +1,171 @@
+---
+title: "Scope of the possible with Power BI"
+author: "Brendan Clarke, NHS Education for Scotland, [brendan.clarke2@nhs.scot](mailto:brendan.clarke2@nhs.scot)"
+date-format: DD/MM/YYYY
+bibliography: references.bib
+format: 
+    revealjs:
+        theme: [default, custom.scss]
+        logo: src/images/KLN_banner_v07_short_200.png
+        css: src/images/logo.css
+        incremental: true
+        embed-resources: true
+editor_options: 
+    chunk_output_type: console
+execute: 
+  echo: false
+  warning: false
+  results: "asis"
+---
+
+## The KIND network
+
+-   a social learning space for staff working with **k**nowledge, **i**nformation, and **d**ata across health, social care, and housing in Scotland
+-   we offer social support, free training, mentoring, community events, ...
+-   [Teams channel](https://teams.microsoft.com/l/team/19%3AQZ7-PbFVcziG2piHLt1_ifey3I2cwFL0yBuTSS8vVao1%40thread.tacv2/conversations?groupId=106d08f3-9026-40e2-b3c7-87cd87304d58&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a) / [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu)
+
+## Session outline
+
+-   Why Power BI, and why this session?
+-   Power BI demo - build a simple dashboard
+-   Strengths and weaknesses
+    -   obvious
+    -   less obvious
+-   Alternatives
+-   Skill development
+
+## Power BI?
+
+-   newish (c.2015)
+-   based on Microsoft's SQL reporting products
+    -   proprietary, closed-source, paid-for
+-   integrates functions from several other Microsoft data products (bits of Excel, PowerPivot, PowerQuery…)
+-   produces interactive dashboards
+
+## Why this session?
+
+-   there is a lot of fluff talked about Power BI
+    -   e.g. elaborate visualisations, fancy real-time data products...
+-   Power BI in general is promoted as a no-code tool
+    -   that's just not true, as we'll see
+-   Power BI has a sales-y focus
+    -   that conceals some of its most useful properties
+-   so Power BI, as a platform, requires some translation to the complicated reality of health and social care data
+    -   and Power BI offers real strengths in managing and exploiting our data, even when the pain-points are taken into account
+
+## Power BI demo
+
+-   using [GP practice size data](https://www.opendata.nhs.scot/dataset/gp-practice-contact-details-and-list-sizes)
+
+. . .
+
+```{r}
+library(tidyverse)
+read_csv("data/SotP_dat.csv") |>
+    slice_sample(n = 3) |>
+    knitr::kable()
+```
+
+::: notes
+really nice tidy data needed
+:::
+
+## Load some data
+
+![Lots of different data loading options](src/images/clipboard-1095239384.png)
+
+## Preview
+
+![Friendly tools for previewing data](src/images/clipboard-570198799.png)
+
+## Add to a map
+
+![Clever use of commercial postcode data](src/images/clipboard-1608638999.png)
+
+## Add interactions
+
+![Visualisations are interactive](src/images/clipboard-1372596463.png)
+
+## Publish
+
+![Publish button in ribbon menu](src/images/clipboard-3096192703.png)
+
+## Add more visuals
+
+![30-odd built in, hundreds of free additional visuals, thousands of (often dodgy) commercial add-ins](src/images/clipboard-2549253369.png)
+
+## Add more data
+
+-   we could add the [health board names](https://www.opendata.nhs.scot/dataset/geography-codes-and-labels/resource/652ff726-e676-4a20-abda-435b98dd7bdc), to make our visual more useful
+-   we could also get [GP practice demographics](https://www.opendata.nhs.scot/dataset/gp-practice-populations)
+
+## Add more data
+![Totally different data, but harmonised process for loading](src/images/clipboard-2157605622.png)
+
+## Re-shape that data
+
+![Neatly-integrated PowerQuery, gives loads of scope for tidying and fixing data](src/images/clipboard-256142195.png)
+
+## Data modelling tools
+
+![Full suite of relational tools for the more ambitious projects](src/images/clipboard-1503081705.png)
+
+## Pre-packed visuals
+
+![Microsoft's Tornado chart](src/images/clipboard-3368145622.png)
+
+## Demographics
+
+![These can be cross filtered to give national/board/practice level insights](src/images/clipboard-3099396019.png)
+
+## Strengths
+
+-   by far the easiest way of producing interactive data products
+-   great tools for tidying data
+-  good for iterative projects
+-   data hubbing / self-service data
+-   scaling
+-   potential to manage complex and sensitive data on existing infrastructure
+
+## Weaknesses
+
+-   really needs clean and tidy data - or PowerQuery expertise
+-   publication can be complicated and expensive
+-   steepening pain curve. Easy to start projects, but more involved analysis is messy
+-   complex IG landscape
+-   messy skills development journey
+
+
+```{r}
+#| eval: false
+
+hb <- read_csv("https://www.opendata.nhs.scot/datastore/dump/652ff726-e676-4a20-abda-435b98dd7bdc?bom=True") |>
+  select(HB, HBName)
+
+dat <- read_csv("data/apr2024.csv") |>
+    left_join(hb) |>
+    select(Name = GPPracticeName,
+    PracticeListSize,
+    Postcode,
+    HBName, 
+    GPCluster,
+    Code = PracticeCode)
+
+library(openxlsx)
+
+wb <- openxlsx::createWorkbook()
+openxlsx::addWorksheet(wb, "gp_pract_data")
+openxlsx::writeDataTable(wb, tableName = "gps", "gp_pract_data", x = dat)
+openxlsx::saveWorkbook(wb, "data/apr_2024_clean.xlsx", overwrite = TRUE)
+
+# KINDR::feedback_url("Scope of the possible with Power BI", "2024-06-17")
+
+# renderthis::to_pdf("Scope of the possible with Power BI.html", to = paste0(snakecase::to_snake_case("Scope of the possible with Power BI"), ".pdf"))
+
+```
+
+## Chat, queries, questions
+
+-   Teams channel: **tinyurl.com/kindnetwork**
+-   weekly email update: **tinyurl.com/kindupdate**
+-   get in touch: brendan.clarke2@nhs.scot

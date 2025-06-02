@@ -6,41 +6,22 @@ author: "[Brendan Clarke](mailto:brendan.clarke2@nhs.scot), NHS Education for Sc
 date-format: DD/MM/YYYY
 bibliography: references.bib
 reference-section-title: Further reading
-format:
+format: 
     revealjs:
         theme: [default, custom.scss]
-        width: 1600
-        margin: 0.1
-        logo: src/images/KLN_banner_v05_125_d.png
-        css: src//images//logo_d.css
+        logo: src/images/KLN_banner_v07_short_200.png
+        css: src/images/logo.css
         incremental: true
         embed-resources: true
+editor_options: 
+    chunk_output_type: console
+execute: 
+  echo: false
+  warning: false
+  results: "asis"
 ---
 
-```{r}
-#| echo: false
-#| warning: false
 
-knitr::opts_chunk$set(echo = F, warning = F, message = F, results = "asis", fig.width = 30, fig.height = 10, fig.align="center")
-
-library(pacman)
-p_load(tidyverse, KINDR)
-
-colz <- c("#f29559", "#f2d492","#202c39", "#f4f3ee" )
-theme_set(theme_classic())
-theme_update(panel.background = element_rect(fill = "#202c39"),
-        plot.background = element_rect(fill = "#202c39"),
-        axis.line = element_line(size = 0.5, linetype = "solid",
-                                   colour = "#f4f3ee"),
-        axis.text = element_text(colour="#f4f3ee"),
-        text = element_text(colour="#f4f3ee", size = 40),
-        legend.background = element_rect(fill = "#4D5661"),
-        strip.text = element_text(colour="#f4f3ee"),
-        strip.background = element_rect(fill="#4D5661", color="#202c39"),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank()
-        )
-```
 
 ## Welcome
 + this session is 🌶: for beginners

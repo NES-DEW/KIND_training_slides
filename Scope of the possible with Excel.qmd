@@ -1,0 +1,116 @@
+---
+title: "Scope of the possible with Excel"
+author: "Brendan Clarke, NHS Education for Scotland, [brendan.clarke2@nhs.scot](mailto:brendan.clarke2@nhs.scot)"
+date: "2024-06-06"
+date-format: DD/MM/YYYY
+format: 
+    revealjs:
+        theme: [default, custom.scss]
+        logo: src/images/KLN_banner_v07_short_200.png
+        css: src/images/logo.css
+        incremental: true
+        embed-resources: true
+editor_options: 
+    chunk_output_type: console
+execute: 
+  echo: false
+  warning: false
+  results: "asis"
+---
+
+
+## Welcome
+
+-   this session is a non-technical overview designed for service leads
+-   we'll get going properly at 13.05
+-   if you can't access the chat, you might need to join our Teams channel: </br>![](images/clipboard-1433020557.png)
+
+## The KIND network
+
+-   a social learning space for staff working with **k**nowledge, **i**nformation, and **d**ata across health, social care, and housing in Scotland
+-   we offer social support, free training, mentoring, community events, ...
+-   [Teams channel](https://teams.microsoft.com/l/team/19%3AQZ7-PbFVcziG2piHLt1_ifey3I2cwFL0yBuTSS8vVao1%40thread.tacv2/conversations?groupId=106d08f3-9026-40e2-b3c7-87cd87304d58&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a) / [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu)
+
+## Session outline
+
+-   Why Excel, and why this session?
+-   Strengths and weaknesses
+-   Great Excel projects, dire Excel projects
+-   Alternatives
+-   Skill development
+
+## Why Excel?
+- 40+ years old
+- initially developed as a finance tool
+- uptake from financial areas outwards into other services
+- likely circular reasoning: "we use Excel" because "we use Excel"...
+
+## Why this session?
+- now includes several different tools for working with data
+- most of us only ever scratch the surface
+- but it's really important to know roughly what's possible - and that's hard!
+
+## Excel demo
+
+- using [open Annual inpatient/daycase data](https://www.opendata.nhs.scot/dataset/9e032286-e5bf-4eb0-837d-c0a05fe0d839/resource/32058e0a-0107-4035-891c-5c6a8571415a/download/inpatient_and_day_case_by_council_area_age_sex.csv)
+
+## Strengths and weaknesses
+
+-   great for one-off data projects, but Excel sheets often have a long life...
+-   easy to start projects, but more involved analysis is messy
+-   share-able and accessible - but many different versions of Excel, add-ins etc, mean that there is grit in the system
+-   you can do almost anything in Excel, but you probably shouldn't
+
+## Great Excel uses
+
+-   simple, quick, one-off projects
+-   using Power Query to manipulate data
+-   using Excel to create/load data into Power BI
+
+## Terrible Excel uses
+
+-   replacing databases (complicated, but Access/SQL)
+-   anything with free text (probably use R/Nvivo instead)
+-   anything with many editors (use Forms or Sharepoint Lists instead)
+-   anything with repetition and extensive manual editing (better Excel design needed)
+-   very wide data (probably Excel redesign again)
+
+## A cautionary tale
+
+-   there are staff in Scotland's health and care sector who spend \~100% of their time manually editing Excel files
+-   this is **almost certainly** the result of poor Excel practices
+-   Excel is a complex product, with several routes to achieving end goals
+-   and Excel can [malfunction to disasterous effect](https://www.bbc.co.uk/programmes/p0f2cytq)
+
+## Five top tips
+
++ keep data tidy (one value per cell, one row per thing, one column per measurement)
++ keep things as simple as possible - but not simpler
++ don't tolerate lots of manual spreadsheet work
++ take care with formatting and accessibility/reuse
++ bet that your spreadsheet will last longer, and travel further, than you think
+
+## Future Excel training sessions {.smaller}
+
+
+```{r}
+
+library(tidyverse)
+source("R/training_sessions.R")
+source("R/nice_date.R")
+
+training_sessions("Excel") 
+
+```
+
+
+## Chat, queries, questions
+
+- Teams channel: **tinyurl.com/kindnetwork**
+- weekly email update: **tinyurl.com/kindupdate**
+- please let me know (brendan.clarke2@nhs.scot) what would be most helpful to you and your team
+
+```{r}
+# renderthis::to_pdf("Scope of the possible with Excel.html")
+```
+

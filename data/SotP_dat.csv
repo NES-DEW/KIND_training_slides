@@ -1,0 +1,901 @@
+﻿Name,ListSize,Postcode,DataZone,HBName,SIMD2020v2_quantile
+Muirhead Medical Centre,8352,DD2 5NH,S01007129,NHS Tayside,5
+The Blue Practice,6877,PH7 3SA,S01011870,NHS Tayside,3
+Aberfeldy And Kinloch Rannoch Medical Practice,4832,PH15 2BL,S01012014,NHS Tayside,4
+Grove Health Centre,6361,DD5 1DU,S01007758,NHS Tayside,5
+Alyth Health Centre,4509,PH11 8EQ,S01011975,NHS Tayside,4
+Arbroath Medical Centre,9968,DD11 1AD,S01007187,NHS Tayside,2
+The Abbey Practice,6895,DD11 1EN,S01007187,NHS Tayside,2
+"East Practice, Springfield Medical Centre",4814,DD11 1ES,S01007189,NHS Tayside,2
+"West Practice, Springfield Medical Centre",8593,DD11 1ES,S01007189,NHS Tayside,2
+St Margaret's Health Centre,10875,PH3 1JH,S01011854,NHS Tayside,5
+Ardblair Medical Practice,7882,PH10 6EF,S01011991,NHS Tayside,4
+Strathmore Surgery,3817,PH10 6BT,S01011993,NHS Tayside,2
+Brechin Medical Practice,8688,DD9 7AN,S01007234,NHS Tayside,3
+Carnoustie Medical Group,13107,DD7 7RB,S01007160,NHS Tayside,3
+Comrie Medical Centre,2696,PH6 2LW,S01011859,NHS Tayside,4
+Coupar Angus Medical Centre,6074,PH13 9DD,S01011969,NHS Tayside,4
+The Red Practice,4222,PH7 3SA,S01011870,NHS Tayside,3
+Park Avenue Medical Centre (DD4 6PP),4873,DD4 6PP,S01007729,NHS Tayside,1
+Tay Court Surgery,9588,DD1 1PF,S01007691,NHS Tayside,4
+Ancrum One,5115,DD2 2HZ,S01007835,NHS Tayside,4
+Taybank Medical Centre,9336,DD4 6EL,S01007732,NHS Tayside,2
+Coldside Medical Practice,9297,DD3 8DB,S01007718,NHS Tayside,1
+Westgate Medical Practice,12737,DD2 4AD,S01007844,NHS Tayside,1
+Newfield Medical Group,5284,DD4 0HU,S01007784,NHS Tayside,2
+Princes Street Surgery,9127,DD4 6DG,S01007709,NHS Tayside,1
+Broughty Family Healthcare,9248,DD5 1EP,S01007759,NHS Tayside,3
+Hawkhill Medical Centre,11857,DD1 5LA,S01007693,NHS Tayside,3
+Family Medical Group,8826,DD4 8XZ,S01007748,NHS Tayside,1
+Erskine Practice,8002,DD4 6QY,S01007728,NHS Tayside,1
+Mill Practice,8664,DD4 6QY,S01007728,NHS Tayside,1
+Terra Nova Medical Practice LLP,6254,DD4 6SW,S01007728,NHS Tayside,1
+Downfield Surgery,8662,DD3 8NE,S01007823,NHS Tayside,5
+Hillbank Health Centre,8294,DD3 6NF,S01007716,NHS Tayside,1
+Maryfield Medical Centre,6706,DD4 7AA,S01007733,NHS Tayside,4
+Ancrum Medical Centre,3705,DD2 2HZ,S01007835,NHS Tayside,4
+Nethergate Medical Centre,8627,DD1 1PB,S01007691,NHS Tayside,4
+Lochee Medical Practice,4457,DD2 3BR,S01007853,NHS Tayside,1
+Craigvinean Surgery,4183,PH8 0AD,S01012008,NHS Tayside,4
+Edzell Health Centre,2697,DD9 7TA,S01007283,NHS Tayside,4
+The Carse Medical Practice,3527,PH2 7TD,S01011962,NHS Tayside,5
+Ravenswood Surgery (DD8 2AE),4611,DD8 2AE,S01007259,NHS Tayside,3
+Academy Medical Centre,9181,DD8 2HA,S01007256,NHS Tayside,2
+Lour Road Group Practice,7257,DD8 2AS,S01007258,NHS Tayside,3
+St Serf's Practice,9731,KY13 8FP,S01011834,NHS Tayside,5
+Orwell Practice,4535,KY13 8FP,S01011834,NHS Tayside,5
+Kirriemuir Medical Practice,8883,DD8 4ES,S01007273,NHS Tayside,4
+Monifieth Medical Practice,11279,DD5 4LX,S01007150,NHS Tayside,5
+Townhead Practice,6990,DD10 8TY,S01007211,NHS Tayside,2
+Castlegait Surgery,4821,DD10 8TY,S01007211,NHS Tayside,2
+Annat Bank Practice,5953,DD10 8TY,S01007211,NHS Tayside,2
+Kings Practice,6553,PH2 0JB,S01011893,NHS Tayside,3
+"Green Practice, Whitefriars Surgery",9532,PH1 1PP,S01011893,NHS Tayside,3
+Victoria Practice,10942,PH2 0JB,S01011893,NHS Tayside,3
+The Lade Medical Practice,3618,PH1 5PD,S01011937,NHS Tayside,2
+The Taymount Surgery,16101,PH1 1NU,S01011898,NHS Tayside,5
+"Red Practice, Whitefriars Surgery",7228,PH1 1PP,S01011893,NHS Tayside,3
+Perth City Medical Centre,9535,PH2 8HH,S01011943,NHS Tayside,1
+"Yellow Practice, Drumhar Health Centre",6664,PH1 5PD,S01011937,NHS Tayside,2
+Atholl Medical Centre,4950,PH16 5FG,S01012010,NHS Tayside,5
+Stanley Medical Centre,4291,PH1 4NN,S01011996,NHS Tayside,3
+Roxburgh Street Surgery,3621,TD1 1PF,S01012275,NHS Borders,2
+Jedburgh Medical Practice,6929,TD8 6EN,S01012352,NHS Borders,5
+Newcastleton Medical Practice,1628,TD9 0RU,S01012354,NHS Borders,4
+Eildon Surgery,7006,TD6 0PP,S01012344,NHS Borders,3
+Merse Medical Practice,6432,TD11 3EL,S01012305,NHS Borders,4
+Selkirk Medical Practice,7317,TD7 4LJ,S01012384,NHS Borders,4
+St Ronan's Practice,4747,EH44 6QE,S01012266,NHS Borders,4
+Kelso Medical Group,11931,TD5 7LF,S01012337,NHS Borders,2
+Mairches Medical Practice Hawick,6042,TD9 9HU,S01012363,NHS Borders,2
+The Neidpath Practice,6035,EH45 8JG,S01012253,NHS Borders,4
+West Linton Medical Practice,3929,EH46 7EX,S01012246,NHS Borders,5
+Coldstream Medical Practice,3910,TD12 4LQ,S01012324,NHS Borders,4
+The Tweed Practice,6024,EH45 8JG,S01012253,NHS Borders,4
+Braeside Medical Practice,4957,TD1 2UA,S01012285,NHS Borders,4
+Waverley Medical Practice (TD1 2UA),5117,TD1 2UA,S01012285,NHS Borders,4
+Duns Medical Group,3118,TD11 3EL,S01012305,NHS Borders,4
+Mairches Medical Practice Galashiels,5063,TD1 2UA,S01012285,NHS Borders,4
+Greenlaw Surgery,1439,TD10 6XJ,S01012300,NHS Borders,3
+Eyemouth Medical Practice,6632,TD14 5DD,S01012316,NHS Borders,2
+Teviot Medical Practice,11398,TD9 9DT,S01012366,NHS Borders,2
+Stow & Lauder Health,4755,TD1 2SQ,S01012272,NHS Borders,5
+Earlston Medical Practice,3272,TD4 6DW,S01012269,NHS Borders,5
+Lochinch Practice,3170,DG9 7DW,S01007492,NHS Dumfries and Galloway,2
+Loch Ree Practice,4465,DG9 7DW,S01007492,NHS Dumfries and Galloway,2
+Mull of Galloway Practice,735,DG9 9QQ,S01007501,NHS Dumfries and Galloway,3
+Cairnsmore Medical Practice,4018,DG8 6NR,S01007518,NHS Dumfries and Galloway,3
+Castle Douglas Medical Group,6697,DG7 3EE,S01007538,NHS Dumfries and Galloway,4
+Solway Medical Group,6454,DG6 4BJ,S01007527,NHS Dumfries and Galloway,4
+"Drs Oliver, Greeley &Innes",3939,DG7 3EE,S01007538,NHS Dumfries and Galloway,4
+Glenkens Medical Practice,1847,DG7 3RN,S01007550,NHS Dumfries and Galloway,3
+Dalbeattie Medical Practice,4930,DG5 4AZ,S01007543,NHS Dumfries and Galloway,3
+Shebburn Medical Practice,2818,DG2 8BY,S01007595,NHS Dumfries and Galloway,3
+St Michaels Medical Centre,6774,DG1 2PX,S01007611,NHS Dumfries and Galloway,2
+Lochthorn Medical Centre,3775,DG1 1TR,S01007622,NHS Dumfries and Galloway,3
+Charlotte Medical Practice,9501,DG2 9BH,S01007585,NHS Dumfries and Galloway,4
+Gillbrae Medical Practice,13681,DG1 4EJ,S01007609,NHS Dumfries and Galloway,2
+Thornhill Medical Practice,3849,DG3 5AA,S01007561,NHS Dumfries and Galloway,4
+Cairn Valley Medical Practice,3913,DG2 0UJ,S01007564,NHS Dumfries and Galloway,4
+Lochmaben Medical Group,5966,DG11 1NH,S01007632,NHS Dumfries and Galloway,4
+The High Street Surgery,5150,DG10 9JP,S01007642,NHS Dumfries and Galloway,4
+Greencroft South Medical Group,6646,DG12 6GS,S01007661,NHS Dumfries and Galloway,3
+Dr N G Kelly & Partners,7451,DG12 6GN,S01007661,NHS Dumfries and Galloway,3
+Gretna Surgery,4929,DG16 5NA,S01007678,NHS Dumfries and Galloway,2
+Canonbie Surgery,2160,DG14 0UX,S01007650,NHS Dumfries and Galloway,4
+Langholm Medical Partnership,2844,DG13 0JY,S01007647,NHS Dumfries and Galloway,5
+Ecclefechan Surgery,2940,DG11 3BT,S01007654,NHS Dumfries and Galloway,3
+Greyfriars Medical Centre,11920,DG1 1DL,S01007612,NHS Dumfries and Galloway,1
+Sandhead Surgery,2474,DG9 9DP,S01007499,NHS Dumfries and Galloway,2
+Glenluce Surgery,2140,DG8 0PU,S01007503,NHS Dumfries and Galloway,3
+Lochnaw Practice,4468,DG9 7DW,S01007492,NHS Dumfries and Galloway,2
+Southern Machars Practice,3176,DG8 8PS,S01007511,NHS Dumfries and Galloway,2
+Galloway Hills Medical Practice,4438,DG8 6NR,S01007518,NHS Dumfries and Galloway,3
+Upper Nithsdale Group Practice,4505,DG4 6BT,S01007555,NHS Dumfries and Galloway,4
+Lockerbie Medical Practice,4441,DG11 2BJ,S01007636,NHS Dumfries and Galloway,3
+Anstruther Medical Practice,6260,KY10 3FF,S01009708,NHS Fife,3
+Auchtermuchty Practice,5631,KY14 7AW,S01009673,NHS Fife,4
+Muiredge Surgery,8636,KY8 1HJ,S01009623,NHS Fife,2
+Burntisland Medical Group,5429,KY3 9DF,S01009459,NHS Fife,2
+The Links Practice,1869,KY3 9DF,S01009459,NHS Fife,2
+Wallsgreen Medical Practice,3099,KY5 0JE,S01009440,NHS Fife,2
+Cowdenbeath Surgery,11532,KY4 9DH,S01009415,NHS Fife,2
+Crossgates Medical Practice,4235,KY4 8DF,S01009406,NHS Fife,4
+Eden Villa Practice,7366,KY15 4JN,S01009687,NHS Fife,4
+Bank Street Medical Group,7979,KY15 4JN,S01009687,NHS Fife,4
+Nethertown Surgery,11362,KY11 4TF,S01009312,NHS Fife,4
+New Park Medical Practice,12186,KY12 0BL,S01009325,NHS Fife,5
+Hospital Hill Surgery,8724,KY11 3BA,S01009360,NHS Fife,5
+Millhill Surgery,8989,KY11 4JW,S01009309,NHS Fife,4
+Bellyeoman Surgery,10850,KY12 0AE,S01009303,NHS Fife,5
+Linburn Road Health Centre,9065,KY11 4LT,S01009338,NHS Fife,1
+The Lomond Practice,10302,KY6 1HL,S01009562,NHS Fife,3
+North Glen Medical Practice,8566,KY7 6SX,S01009600,NHS Fife,1
+The Glenwood Practice,6197,KY6 1HL,S01009562,NHS Fife,3
+Cos Lane Surgery,9047,KY7 4AQ,S01009584,NHS Fife,5
+Rothes Medical Practice,8817,KY7 4RH,S01009586,NHS Fife,2
+Valleyfield Medical Practice,3991,KY12 8SJ,S01009280,NHS Fife,1
+Inverkeithing Medical Group,18513,KY11 1NU,S01009389,NHS Fife,4
+Kelty Medical Practice,7377,KY4 0AE,S01009424,NHS Fife,3
+Kennoway Medical Group,4190,KY8 5JZ,S01009657,NHS Fife,3
+Kinghorn Medical Practice,3281,KY3 9RT,S01009469,NHS Fife,5
+Nicol Street Surgery,6142,KY1 1PH,S01009480,NHS Fife,5
+"Drs McKenna, Murphy & McCallum",6850,KY1 2NA,S01009522,NHS Fife,2
+Bennochy Medical Centre,9380,KY2 5RB,S01009486,NHS Fife,4
+St Brycedale Surgery,7530,KY1 1ER,S01009479,NHS Fife,3
+Path House Medical Practice,11158,KY1 2PG,S01009526,NHS Fife,4
+"Drs Dixon, Duggan, Egerton, MacKernan, McCrickard & Walker",7889,KY1 2NA,S01009522,NHS Fife,2
+"Drs Fordyce, Lempke & Parish",6551,KY1 2NA,S01009522,NHS Fife,2
+Howe of Fife Surgery,4646,KY15 7JS,S01009666,NHS Fife,3
+Leslie Medical Practice,6488,KY6 3LQ,S01009553,NHS Fife,2
+Pitcairn Practice Leuchars & Balmullo,4676,KY16 0DZ,S01009745,NHS Fife,5
+Scoonie Medical Practice,12590,KY8 4ET,S01009641,NHS Fife,1
+Charlestown Surgery,2789,KY11 3ED,S01009288,NHS Fife,5
+Meadows Practice,5161,KY5 9QZ,S01009453,NHS Fife,2
+Benarty Medical Practice,4806,KY5 8DA,S01009430,NHS Fife,2
+Dr K Thompson,2215,KY5 9QZ,S01009453,NHS Fife,2
+Markinch Medical Practice,5979,KY7 6ER,S01009609,NHS Fife,5
+Lochgelly Medical Practice,3403,KY5 9QZ,S01009453,NHS Fife,2
+Methilhaven Surgery,4458,KY8 1HU,S01009619,NHS Fife,2
+Airlie Medical Practice,9136,KY8 3RS,S01009635,NHS Fife,2
+Newburgh Surgery,4041,KY14 6DA,S01009679,NHS Fife,3
+Tayview Medical Practice,9261,DD6 8DJ,S01009754,NHS Fife,5
+Oakley Medical practice,8926,KY12 9QH,S01009270,NHS Fife,2
+Coast Health,5288,KY10 2LG,S01009704,NHS Fife,5
+Primrose Lane Medical Centre,9640,KY11 2ZL,S01009364,NHS Fife,4
+Park Road Practice,6023,KY11 2SE,S01009367,NHS Fife,3
+Blackfriars Medical Practice,9261,KY16 8AR,S01009730,NHS Fife,5
+Pipeland Medical Practice,15213,KY16 8AR,S01009730,NHS Fife,5
+Ochil Medical Practice,10330,FK10 3JQ,S01007460,NHS Forth Valley,1
+The Whins Medical Practice,6848,FK10 3JQ,S01007460,NHS Forth Valley,1
+Alva Medical Practice,13273,FK12 5BD,S01007428,NHS Forth Valley,3
+Balfron Health Centre,2999,G63 0TS,S01013012,NHS Forth Valley,5
+Edenkiln Surgery,2483,G63 9EG,S01013008,NHS Forth Valley,5
+Forthview Practice,4305,EH51 0DQ,S01009257,NHS Forth Valley,4
+The Richmond Practice,8355,EH51 0DQ,S01009257,NHS Forth Valley,4
+Kinglass Medical Practice,3762,EH51 9UE,S01009259,NHS Forth Valley,5
+Bridge Of Allan Health Centre,7030,FK9 4EU,S01013086,NHS Forth Valley,5
+Callander Medical Practice,4575,FK17 8LX,S01013112,NHS Forth Valley,4
+Clackmannan & Kincardine Medical Practice,6998,FK10 4JA,S01007450,NHS Forth Valley,2
+Fallin Health Centre,6464,FK7 7JD,S01013036,NHS Forth Valley,2
+Denny Cross Medical Centre,5303,FK6 6DB,S01009057,NHS Forth Valley,1
+Carronbank Medical Practice,10638,FK6 6GD,S01009058,NHS Forth Valley,2
+Antonine Medical Practice,4965,FK4 1ED,S01009079,NHS Forth Valley,2
+Bonnybank Medical Practice,8323,FK4 1ED,S01009079,NHS Forth Valley,2
+Dollar Health Centre,5349,FK14 7AA,S01007444,NHS Forth Valley,5
+Doune Health Centre,4213,FK16 6DU,S01013107,NHS Forth Valley,5
+Dunblane Medical Practice,10733,FK15 9AL,S01013101,NHS Forth Valley,3
+Wallace Medical Centre,8013,FK2 7AZ,S01009142,NHS Forth Valley,1
+Ark Medical Practice,2722,FK1 1BA,S01009151,NHS Forth Valley,4
+Meeks Road Surgery,10703,FK2 7ES,S01009138,NHS Forth Valley,5
+Graeme Medical Centre,5556,FK2 7HR,S01009138,NHS Forth Valley,5
+Camelon Medical Practice,8139,FK1 4PP,S01009162,NHS Forth Valley,1
+Bo'ness Road Medical Practice,7500,FK3 8AN,S01009229,NHS Forth Valley,3
+Killearn Health Centre,4659,G63 9NA,S01013004,NHS Forth Valley,5
+Killin Medical Practice,1574,FK21 8TQ,S01013120,NHS Forth Valley,4
+Kippen Surgery,2339,FK8 3DZ,S01013017,NHS Forth Valley,4
+Viewpoint Medical Practice,6430,FK5 3BB,S01009100,NHS Forth Valley,2
+Parkview Practice (FK5 3BB),5226,FK5 3BB,S01009100,NHS Forth Valley,2
+Polmont Park Medical Practice,8161,FK2 0XF,S01009214,NHS Forth Valley,5
+Braesview Medical Group,9537,FK2 0XF,S01009214,NHS Forth Valley,5
+Parkhill Medical Practice,12017,FK2 0XF,S01009214,NHS Forth Valley,5
+Slamannan Medical Practice,2150,FK1 3EZ,S01009184,NHS Forth Valley,2
+Park Terrace Medical Practice,7428,FK8 2AU,S01013060,NHS Forth Valley,4
+Orchard House Health Centre,4308,FK8 1PH,S01013071,NHS Forth Valley,5
+Tillicoultry Medical Practice,8440,FK13 6AG,S01007436,NHS Forth Valley,1
+Airthrey Park Medical Centre,8658,FK9 4NJ,S01013083,NHS Forth Valley,5
+Park Avenue Medical Centre (FK8 2AU),7683,FK8 2AU,S01013060,NHS Forth Valley,4
+Stenhouse Practice,3100,FK5 3BB,S01009100,NHS Forth Valley,2
+Tryst Medical Centre,6264,FK5 4HT,S01009106,NHS Forth Valley,3
+Carron Medical Centre,4186,FK2 7TA,S01009135,NHS Forth Valley,4
+Ochilview Practice,5906,FK5 3BB,S01009100,NHS Forth Valley,2
+Allan Park Medical Practice,3752,FK8 2QD,S01013063,NHS Forth Valley,5
+Viewfield Medical Practice,10137,FK8 2AU,S01013060,NHS Forth Valley,4
+Direct Patient Care Service,31,FK9 4SW,S01013073,NHS Forth Valley,2
+Drymen Health Centre,1577,G63 0DP,S01013009,NHS Forth Valley,4
+Aberfoyle & Buchlyvie Medical Centres,2349,FK8 3NB,S01013014,NHS Forth Valley,5
+Tor Medical Group,3508,FK7 8DW,S01013026,NHS Forth Valley,2
+Alba Medical Group (FK7 0HW),28720,FK7 0HW,S01013045,NHS Forth Valley,4
+Garthdee Medical Group,10378,AB10 7QQ,S01006528,NHS Grampian,4
+Holburn Medical Group,9018,AB10 1YE,S01006571,NHS Grampian,5
+Newburn Health Centre,19723,AB25 1QB,S01006586,NHS Grampian,3
+Whinhill Medical Practice,10276,AB11 7XH,S01006602,NHS Grampian,5
+Elmbank Group Practice,11494,AB25 2AY,S01006563,NHS Grampian,5
+Hamilton Medical Group,9035,AB15 4ZT,S01006571,NHS Grampian,5
+Bucksburn Medical Practice,5695,AB21 9DG,S01006745,NHS Grampian,3
+Westburn Medical Group,6530,AB25 2XE,S01006563,NHS Grampian,5
+New Dyce Medical Practice,10082,AB21 7NQ,S01006754,NHS Grampian,5
+Torry Medical Practice,6903,AB11 8ER,S01006625,NHS Grampian,3
+Great Western Medical Practice,9890,AB15 7YT,S01006545,NHS Grampian,5
+Kincorth Medical Practice,14014,AB12 5NA,S01006607,NHS Grampian,3
+Oldmachar Medical Practice,17729,AB24 5RS,S01006667,NHS Grampian,1
+Marywell Healthcare Centre,279,AB24 5HT,S01006639,NHS Grampian,2
+Links Medical Practice,8663,AB24 5AU,S01006641,NHS Grampian,4
+Calsayseat Medical Group,12269,AB25 3TX,S01006651,NHS Grampian,2
+Albyn Medical Practice,10596,AB10 1NW,S01006571,NHS Grampian,5
+King's Medical Practice,13709,AB24 3NG,S01006664,NHS Grampian,5
+Rubislaw Place Medical Group,8509,AB10 1QB,S01006571,NHS Grampian,5
+Kingswells Medical Practice,7214,AB15 8TB,S01006734,NHS Grampian,5
+Woodside Medical Group,13024,AB24 2AS,S01006684,NHS Grampian,1
+Scotstown Medical Group,12637,AB22 8LD,S01006779,NHS Grampian,3
+Gilbert Road Medical Group,9910,AB21 9AN,S01006738,NHS Grampian,4
+Cults Medical Group,8511,AB15 9LQ,S01006524,NHS Grampian,4
+Peterculter Medical Practice,8155,AB14 0RP,S01006511,NHS Grampian,5
+Danestone Medical Practice,6173,AB22 8ZP,S01006757,NHS Grampian,5
+Camphill Medical Practice,1892,AB15 9EP,S01006516,NHS Grampian,5
+Macduff Medical Practice,12434,AB45 1JD,S01007032,NHS Grampian,2
+An Caorann Medical Practice,4779,AB45 2GB,S01007025,NHS Grampian,3
+Finlayson Street Practice,9447,AB43 9JW,S01007126,NHS Grampian,1
+Saltoun Surgery,8340,AB43 9NH,S01007123,NHS Grampian,3
+Central Buchan Medical Practice,6474,AB43 6NE,S01007049,NHS Grampian,3
+Crimond Medical Centre,3511,AB43 8QJ,S01007101,NHS Grampian,2
+Cruden Medical Group,3753,AB42 0QQ,S01007071,NHS Grampian,4
+Peterhead Health Centre,22993,AB42 2XA,S01007080,NHS Grampian,2
+Aden Health Centre,8352,AB42 5GP,S01007059,NHS Grampian,4
+Turriff Medical Practice,8686,AB53 4DQ,S01007022,NHS Grampian,4
+Fyvie Oldmeldrum Medical Group,8971,AB51 0JZ,S01006985,NHS Grampian,5
+Strathdon Medical Centre,770,AB36 8XB,S01006791,NHS Grampian,4
+Alford Medical Practice,5825,AB33 8FL,S01006884,NHS Grampian,5
+Ellon Group Practice,15756,AB41 9AH,S01006959,NHS Grampian,3
+Haddo Medical Group,5637,AB41 7NX,S01006982,NHS Grampian,5
+Insch Medical Practice,6595,AB52 6JJ,S01007001,NHS Grampian,5
+Inverurie Medical Group,25322,AB51 3UL,S01006905,NHS Grampian,5
+Kemnay Medical Group,6520,AB51 5NB,S01006891,NHS Grampian,5
+Bydand Medical Group,7693,AB54 8EX,S01007010,NHS Grampian,5
+Skene Medical Group,15034,AB32 6FG,S01006941,NHS Grampian,5
+Aboyne Health Centre,6575,AB34 5HQ,S01006799,NHS Grampian,4
+Ballater Clinic,1874,AB35 5NN,S01006790,NHS Grampian,5
+Braemar Health Clinic,706,AB35 5WR,S01006793,NHS Grampian,5
+Torphins Medical Practice,2114,AB31 4JQ,S01006870,NHS Grampian,5
+Banchory Group Practice,13225,AB31 5XS,S01006865,NHS Grampian,5
+Portlethen Medical Centre,15892,AB12 4QP,S01006852,NHS Grampian,5
+Stonehaven Medical Group,13193,AB39 2EL,S01006833,NHS Grampian,5
+Auchenblae Medical Centre,2227,AB30 1XU,S01006811,NHS Grampian,5
+Inverbervie Medical Group,5743,DD10 0RU,S01006815,NHS Grampian,4
+Laurencekirk Medical Group,6173,AB30 1GX,S01006801,NHS Grampian,5
+Ardach Health Centre,8515,AB56 1JE,S01011078,NHS Grampian,5
+Seafield & Cullen Medical Group,6987,AB56 1FP,S01011081,NHS Grampian,3
+Linkwood Medical,12262,IV30 6GQ,S01011093,NHS Grampian,5
+Fochabers Medical Practice,4483,IV32 7EP,S01011089,NHS Grampian,3
+Moray Coast Medical Practice,10202,IV31 6TU,S01011139,NHS Grampian,5
+Maryhill Group Practice,22361,IV30 1AT,S01011118,NHS Grampian,5
+Varis Medical Practice,8298,IV36 1JG,S01011163,NHS Grampian,3
+Culbin Medical Practice,8297,IV36 1JG,S01011163,NHS Grampian,3
+Keith Medical Group,7276,AB55 5DJ,S01011062,NHS Grampian,4
+Aberlour Health Centre,3047,AB38 9PR,S01011052,NHS Grampian,5
+Rinnes Medical Group,3189,AB55 4FJ,S01011049,NHS Grampian,4
+Glenlivet Medical Practice,561,AB37 9AN,S01011045,NHS Grampian,4
+Skerryvore Practice,8648,KW15 1NZ,S01011817,NHS Orkney,5
+Stromness Surgery,3075,KW16 3AD,S01011805,NHS Orkney,5
+Daisy Villa,1545,KW17 2SN,S01011828,NHS Orkney,3
+Islands View Surgery,258,KW17 2PU,S01011830,NHS Orkney,3
+Heilendi Practice,3919,KW15 1NZ,S01011817,NHS Orkney,5
+Dounby Surgery,2860,KW17 2HH,S01011807,NHS Orkney,5
+Orcades Practice,1981,KW15 1NZ,S01011817,NHS Orkney,5
+Yell Health Centre,982,ZE2 9BX,S01012413,NHS Shetland,4
+Whalsay Health Centre,1059,ZE2 9AE,S01012415,NHS Shetland,5
+Hillswick Health Centre,822,ZE2 9RW,S01012412,NHS Shetland,4
+Brae Medical Practice,2547,ZE2 9QJ,S01012410,NHS Shetland,5
+Bixter Health Centre,1905,ZE2 9NA,S01012407,NHS Shetland,5
+Levenwick Medical Practice,2728,ZE2 9HX,S01012388,NHS Shetland,5
+Scalloway Health Centre LLP,3728,ZE1 0TN,S01012404,NHS Shetland,4
+Lerwick Health Centre,8559,ZE1 0RB,S01012395,NHS Shetland,4
+Unst Health Centre,628,ZE2 9DY,S01012414,NHS Shetland,3
+Fulton Street Medical Centre,6290,G13 1JE,S01010475,NHS Greater Glasgow and Clyde,5
+BuckinghamTerraceMedicalPractice,8760,G12 8ED,S01010375,NHS Greater Glasgow and Clyde,5
+The Terrace Medical Practice,7678,G61 3RD,S01008054,NHS Greater Glasgow and Clyde,5
+Dr MacLaren & Dr McAdam Partnership,4626,G3 7UA,S01010287,NHS Greater Glasgow and Clyde,5
+Red Wing Medical Practice,8846,G81 1BS,S01013128,NHS Greater Glasgow and Clyde,1
+Anniesland Medical Practice,8933,G13 2UP,S01010476,NHS Greater Glasgow and Clyde,4
+Old Kilpatrick Medical Practice,5369,G60 5JG,S01013176,NHS Greater Glasgow and Clyde,3
+Abingdon Medical Practice,3775,G11 5PE,S01010386,NHS Greater Glasgow and Clyde,2
+Pennan Practice,2513,G14 0EA,S01010435,NHS Greater Glasgow and Clyde,2
+Kessington Medical Centre,7580,G61 2DN,S01008077,NHS Greater Glasgow and Clyde,5
+The Broomhill Practice,7098,G11 7AD,S01010415,NHS Greater Glasgow and Clyde,2
+Northcote Surgery,12645,G12 9LD,S01010404,NHS Greater Glasgow and Clyde,5
+Queens Crescent Surgery,8203,G4 9BL,S01010295,NHS Greater Glasgow and Clyde,5
+Ashfield Medical Practice,7745,G62 6BT,S01008046,NHS Greater Glasgow and Clyde,2
+Dr I. Cullen,2797,G12 9PN,S01010402,NHS Greater Glasgow and Clyde,5
+Gardner Street Surgery,3174,G11 5NG,S01010396,NHS Greater Glasgow and Clyde,3
+Barclay Medical Practice - Clydeside,1354,G14 9UU,S01010425,NHS Greater Glasgow and Clyde,1
+The Green Medical Practice,9105,G81 1BS,S01013128,NHS Greater Glasgow and Clyde,1
+Bluewing Medical Practice,6364,G81 1BS,S01013128,NHS Greater Glasgow and Clyde,1
+"Drs McAlpine, Walker & Pettigrew",4335,G11 7SY,S01010388,NHS Greater Glasgow and Clyde,1
+Dr Haggerty,1961,G15 6EG,S01010488,NHS Greater Glasgow and Clyde,1
+Peel Street Medical Centre,2007,G11 5LL,S01010396,NHS Greater Glasgow and Clyde,3
+Drs Melrose & Sharp Partnership,4714,G3 7UA,S01010287,NHS Greater Glasgow and Clyde,5
+Knightswood Medical Practice,5558,G13 2SW,S01010470,NHS Greater Glasgow and Clyde,2
+Dr A P Jackson & Partners,5323,G12 9JE,S01010403,NHS Greater Glasgow and Clyde,5
+Kersland House Surgery,7547,G62 8BT,S01008046,NHS Greater Glasgow and Clyde,2
+Drs Smith & Gormley,2392,G13 4PU,S01010447,NHS Greater Glasgow and Clyde,1
+Whiteinch Medical Practice,2246,G14 9UT,S01010425,NHS Greater Glasgow and Clyde,1
+Drs Logan & Macdonald,2476,G15 7TS,S01010499,NHS Greater Glasgow and Clyde,1
+Garscadden Burn Medical Practice,5233,G15 7TS,S01010499,NHS Greater Glasgow and Clyde,1
+"Drs MacNeill, Clarey & Henderson",6660,G3 8ND,S01010285,NHS Greater Glasgow and Clyde,3
+Dr A Khan,2368,G12 8ND,S01010376,NHS Greater Glasgow and Clyde,5
+The Cairntoul Practice,2315,G14 0XT,S01010435,NHS Greater Glasgow and Clyde,2
+Yoker Medical Centre,4791,G14 0NT,S01010441,NHS Greater Glasgow and Clyde,4
+Drumchapel Medical Practice,3032,G15 7TS,S01010499,NHS Greater Glasgow and Clyde,1
+Kinfauns Medical Practice,2735,G15 7TS,S01010499,NHS Greater Glasgow and Clyde,1
+Scotstoun Medical Practice,2136,G14 9XL,S01010436,NHS Greater Glasgow and Clyde,1
+Barclay Medical Practice Victoria Park,4183,G14 9DR,S01010429,NHS Greater Glasgow and Clyde,5
+The Orange Wing Medical Practice,6065,G81 1BS,S01013128,NHS Greater Glasgow and Clyde,1
+Glasgow West Medical Practice,5469,G14 9PS,S01010422,NHS Greater Glasgow and Clyde,4
+Challenging Behaviour Practice,54,G4 0UP,S01010257,NHS Greater Glasgow and Clyde,2
+Yellow Medical Practice,7038,G81 1BS,S01013128,NHS Greater Glasgow and Clyde,1
+Dr Rai & Partners,3160,G81 1BS,S01013128,NHS Greater Glasgow and Clyde,1
+Ashton Medical Practice,8287,G12 8SP,S01010379,NHS Greater Glasgow and Clyde,4
+"Drs Morgan, Gavin & Nimmo",4264,G15 7TS,S01010499,NHS Greater Glasgow and Clyde,1
+Kingsway Medical Practice,6658,G14 9SS,S01010427,NHS Greater Glasgow and Clyde,1
+Denbridge Medical Practice,9324,G61 2SY,S01008054,NHS Greater Glasgow and Clyde,5
+Gairbraid Medical Practice,5842,G20 8FB,S01010360,NHS Greater Glasgow and Clyde,1
+Regent Gardens Medical Centre,10714,G66 1DH,S01008133,NHS Greater Glasgow and Clyde,3
+The Turret Medical Centre,6692,G66 1JB,S01008134,NHS Greater Glasgow and Clyde,3
+Springfield Medical Practice,9387,G64 1PJ,S01008111,NHS Greater Glasgow and Clyde,5
+Dr A. Polding,2811,G21 1TR,S01010212,NHS Greater Glasgow and Clyde,1
+Dr Burton & Dr Krishnan,2377,G20 7ER,S01010305,NHS Greater Glasgow and Clyde,1
+Atlas Medical Practice,2931,G21 1TR,S01010212,NHS Greater Glasgow and Clyde,1
+Southbank Surgery,7189,G66 1NH,S01008131,NHS Greater Glasgow and Clyde,2
+Peelview Medical Centre,10522,G66 1DN,S01008133,NHS Greater Glasgow and Clyde,3
+Drs Ballantyne & Blair,3507,G21 1TR,S01010212,NHS Greater Glasgow and Clyde,1
+The Barony Medical Centre,5660,G21 4AH,S01010225,NHS Greater Glasgow and Clyde,1
+The Firhill Practice,5581,G20 7ER,S01010305,NHS Greater Glasgow and Clyde,1
+Kenmure Medical Practice,8187,G64 1PJ,S01008111,NHS Greater Glasgow and Clyde,5
+"Drs Leslie, Ojo & Chetty",6832,G20 7ER,S01010305,NHS Greater Glasgow and Clyde,1
+Drs Gaw & Esler,3317,G20 7ER,S01010305,NHS Greater Glasgow and Clyde,1
+Kelvin Medical Centre,4129,G20 6HS,S01010306,NHS Greater Glasgow and Clyde,4
+"Drs Adair, Denholm & Pugh",6266,G20 7ER,S01010305,NHS Greater Glasgow and Clyde,1
+Auchinairn Medical Practice,7061,G64 1NF,S01008105,NHS Greater Glasgow and Clyde,2
+Keppoch Medical Practice,4227,G22 5AP,S01010311,NHS Greater Glasgow and Clyde,1
+Balmore Surgery,3525,G22 5AP,S01010311,NHS Greater Glasgow and Clyde,1
+Lennoxtown Medical Practice,3300,G66 7JJ,S01008160,NHS Greater Glasgow and Clyde,2
+"Drs Meek ,Fox & Black",3577,G21 3RW,S01010196,NHS Greater Glasgow and Clyde,1
+Allander Surgery,3492,G22 5SS,S01010323,NHS Greater Glasgow and Clyde,1
+Dr Campbell & Dr Halstvedt,3097,G22 7JL,S01010338,NHS Greater Glasgow and Clyde,1
+Maryhill Red Practice,5477,G20 8FB,S01010360,NHS Greater Glasgow and Clyde,1
+Fernbank Medical Centre,5084,G22 6BD,S01010218,NHS Greater Glasgow and Clyde,1
+Dr Rasul & Thompson,7117,G20 7ER,S01010305,NHS Greater Glasgow and Clyde,1
+Dr Ho Chong Teck,1941,G20 7ER,S01010305,NHS Greater Glasgow and Clyde,1
+Dr Harris & Partners,7301,G21 1TR,S01010212,NHS Greater Glasgow and Clyde,1
+Drs Langridge & Black,2258,G22 5AP,S01010311,NHS Greater Glasgow and Clyde,1
+Dr M Showkat,2555,G22 5AP,S01010311,NHS Greater Glasgow and Clyde,1
+Dr Paul Lyons,1714,G64 2AA,S01008100,NHS Greater Glasgow and Clyde,5
+Barclay Medical Practice (G20 8FB),57960,G20 8FB,S01010360,NHS Greater Glasgow and Clyde,1
+Woodhead Medical Practice,6749,G66 3BF,S01008130,NHS Greater Glasgow and Clyde,2
+Townhead Medical Practice,15526,G31 2ES,S01010262,NHS Greater Glasgow and Clyde,1
+Dr Ali & Dr Mackenzie,2427,G40 2DA,S01010055,NHS Greater Glasgow and Clyde,1
+Glenmill Medical Practice,7182,G33 1EY,S01010184,NHS Greater Glasgow and Clyde,1
+Parade Group Practice,18833,G31 2ES,S01010262,NHS Greater Glasgow and Clyde,1
+The Cairns Practice,9839,G32 7JZ,S01010147,NHS Greater Glasgow and Clyde,1
+Drs Mckenzie & Burns,3053,G31 5BA,S01010052,NHS Greater Glasgow and Clyde,1
+Drs Wilson & Boyd,5347,G33 3TU,S01010168,NHS Greater Glasgow and Clyde,2
+Annfield Medical Centre,2026,G31 2XE,S01010252,NHS Greater Glasgow and Clyde,3
+Crail Medical Practice,4268,G31 4UW,S01010060,NHS Greater Glasgow and Clyde,1
+Carntyne Medical Centre,4499,G32 6JP,S01010247,NHS Greater Glasgow and Clyde,2
+Dr M Khan,2550,G40 3LJ,S01010050,NHS Greater Glasgow and Clyde,1
+Dr S Ross,3816,G32 7JZ,S01010147,NHS Greater Glasgow and Clyde,1
+Main Street Medical Centre,8172,G40 1HA,S01010043,NHS Greater Glasgow and Clyde,1
+Dr K Miller & Partners,3304,G32 6NB,S01010159,NHS Greater Glasgow and Clyde,1
+McGlone Practice,13130,G69 7AD,S01010086,NHS Greater Glasgow and Clyde,1
+Forge Medical Practice,4948,G31 5BA,S01010052,NHS Greater Glasgow and Clyde,1
+"Drs Mccallum, Gardiner & Makun",3434,G32 6NB,S01010159,NHS Greater Glasgow and Clyde,1
+The Muirside Medical Practice,8249,G69 7AD,S01010086,NHS Greater Glasgow and Clyde,1
+Westmuir Medical Centre,3826,G31 5RA,S01010049,NHS Greater Glasgow and Clyde,1
+Tollcross Medical Centre,8350,G32 8UH,S01010063,NHS Greater Glasgow and Clyde,1
+Drs Day & Raja,2336,G40 2DA,S01010055,NHS Greater Glasgow and Clyde,1
+Dr M P Hamayun & Dr M R Masood,1484,G40 2DA,S01010055,NHS Greater Glasgow and Clyde,1
+Dr Connaughton,4596,G40 2DA,S01010055,NHS Greater Glasgow and Clyde,1
+Dr M Saleem,1592,G40 2DA,S01010055,NHS Greater Glasgow and Clyde,1
+Newhills Medical Practice,9969,G34 9HQ,S01010114,NHS Greater Glasgow and Clyde,1
+Lochend Surgery,2654,G34 9HQ,S01010114,NHS Greater Glasgow and Clyde,1
+Drs Al-Agilly & Morgan,5907,G33 3AL,S01010155,NHS Greater Glasgow and Clyde,2
+Abercromby Practice,3169,G40 2DA,S01010055,NHS Greater Glasgow and Clyde,1
+The Whitevale Medical Group,4716,G31 1QS,S01010244,NHS Greater Glasgow and Clyde,1
+Dalmarnock Family M P,1164,G40 2DA,S01010055,NHS Greater Glasgow and Clyde,1
+Drs Lynas & Rodgers,3259,G40 2DA,S01010055,NHS Greater Glasgow and Clyde,1
+Calton Medical Practice,2006,G40 2DA,S01010055,NHS Greater Glasgow and Clyde,1
+Meadowpark Surgery,8619,G31 3BP,S01010238,NHS Greater Glasgow and Clyde,3
+Oakwood Medical Practice,7378,G34 9HQ,S01010114,NHS Greater Glasgow and Clyde,1
+Practice B,12123,G42 7DR,S01009890,NHS Greater Glasgow and Clyde,2
+Dr C Mills & Partners,3972,G5 9AB,S01010034,NHS Greater Glasgow and Clyde,1
+Eglinton Medical Centre,2390,G5 9RP,S01010033,NHS Greater Glasgow and Clyde,1
+Croftfoot Surgery,7322,G44 5JT,S01009989,NHS Greater Glasgow and Clyde,2
+"Drs McGivern, Murthy & Sinha",4274,G42 9JT,S01009901,NHS Greater Glasgow and Clyde,5
+Nithsdale Merryvale Group Practice,9565,G41 5RU,S01009885,NHS Greater Glasgow and Clyde,3
+Drs Boardman & Partners,7533,G76 7HN,S01008383,NHS Greater Glasgow and Clyde,5
+The Victoria Practice (G42 7DR),5718,G42 7DR,S01009890,NHS Greater Glasgow and Clyde,2
+Sheddens Medical Practice,2418,G76 7BU,S01008377,NHS Greater Glasgow and Clyde,5
+Drs Geddes & Partners,5104,G41 3YT,S01009926,NHS Greater Glasgow and Clyde,4
+Drs Morrice & Partners,8334,G76 7HN,S01008383,NHS Greater Glasgow and Clyde,5
+Merrylee Medical Centre,6083,G44 3DH,S01009955,NHS Greater Glasgow and Clyde,3
+Butterbiggins Medical Centre,5041,G42 7AF,S01010033,NHS Greater Glasgow and Clyde,1
+Shawlands Surgery,6044,G41 3RG,S01009918,NHS Greater Glasgow and Clyde,5
+Queens Park Medical Practice,3137,G42 8QD,S01009909,NHS Greater Glasgow and Clyde,3
+Baker Street Surgery,2347,G41 3YA,S01009924,NHS Greater Glasgow and Clyde,3
+Mearns Medical Centre,14902,G77 5BQ,S01008343,NHS Greater Glasgow and Clyde,5
+Dr Linda J Wright,2221,G42 0EH,S01010018,NHS Greater Glasgow and Clyde,2
+Eastwoodmains Medical Practice,4761,G76 7HN,S01008383,NHS Greater Glasgow and Clyde,5
+Broomburn Medical Centre,3096,G77 5LU,S01008347,NHS Greater Glasgow and Clyde,5
+"Drs Rennie, Gallacher, Steel & Lange",5775,G41 3PT,S01009922,NHS Greater Glasgow and Clyde,5
+Greenlaw Medical Practice,4824,G77 6GR,S01008331,NHS Greater Glasgow and Clyde,5
+The Gordon Practice,6086,G5 9AB,S01010034,NHS Greater Glasgow and Clyde,1
+Elmwood Medical Practice,2743,G76 7HN,S01008383,NHS Greater Glasgow and Clyde,5
+Carolside Medical Centre,7938,G76 7BX,S01008377,NHS Greater Glasgow and Clyde,5
+The Maclean Medical Practice,9024,G76 7HN,S01008383,NHS Greater Glasgow and Clyde,5
+Regency Medical Practice,3047,G41 1NX,S01009875,NHS Greater Glasgow and Clyde,2
+Mount Florida Medical Centre,9510,G42 9LQ,S01009904,NHS Greater Glasgow and Clyde,4
+Dr M. M. Sharif & Dr M. T. Saleem,1849,G41 3YA,S01009924,NHS Greater Glasgow and Clyde,3
+Castlemilk Group Practice,10583,G45 9AW,S01009980,NHS Greater Glasgow and Clyde,1
+The Ker Practice,10118,G44 5JT,S01009989,NHS Greater Glasgow and Clyde,2
+Kingspark Surgery,5126,G44 4JE,S01010001,NHS Greater Glasgow and Clyde,3
+Williamwood Medical Practice,9100,G76 7NW,S01008383,NHS Greater Glasgow and Clyde,5
+Shields Medical Practice,4052,G41 1NX,S01009875,NHS Greater Glasgow and Clyde,2
+Midlock Medical Centre,8863,G51 1SL,S01009863,NHS Greater Glasgow and Clyde,2
+Thurston Road Medical Practice,4214,G52 2AZ,S01009832,NHS Greater Glasgow and Clyde,3
+Dr C P Fraser & Partners,5912,G42 7DR,S01009890,NHS Greater Glasgow and Clyde,2
+Braidcraft Medical Centre,6010,G53 5QD,S01009799,NHS Greater Glasgow and Clyde,1
+The Crescent Medical Practice,6192,G51 1AT,S01009870,NHS Greater Glasgow and Clyde,3
+The David Elder Medical Practice,5345,G51 4BJ,S01009840,NHS Greater Glasgow and Clyde,1
+The Green Practice Govan,4880,G51 4BJ,S01009840,NHS Greater Glasgow and Clyde,1
+Drs Chita & Hayes,2807,G51 1RN,S01009873,NHS Greater Glasgow and Clyde,3
+Dr Ferguson & Partners,10516,G41 1HU,S01009867,NHS Greater Glasgow and Clyde,2
+Sycamore Medical Practice,1688,G53 7RN,S01009766,NHS Greater Glasgow and Clyde,4
+Waverley Park Medical Practice,4522,G41 3UJ,S01009917,NHS Greater Glasgow and Clyde,5
+Drs Mcnaughtan & O'Neill,3593,G52 3SS,S01009806,NHS Greater Glasgow and Clyde,2
+"Drs Dale, Blackwood & Chambers",3808,G51 1HS,S01009867,NHS Greater Glasgow and Clyde,2
+Dr Mckeeve,1960,G41 1HU,S01009867,NHS Greater Glasgow and Clyde,2
+Thorntree Practice,6190,G46 8NY,S01008409,NHS Greater Glasgow and Clyde,3
+Dr Mair & Partners,7265,G52 3QN,S01009851,NHS Greater Glasgow and Clyde,1
+The Village Practice - Thornliebank,8362,G46 8NY,S01008409,NHS Greater Glasgow and Clyde,3
+Dr Alam's Surgery,1613,G41 1HU,S01009867,NHS Greater Glasgow and Clyde,2
+The Peat Road Medical Practice,5294,G53 6EQ,S01009775,NHS Greater Glasgow and Clyde,1
+Yellow Practice,4096,G51 4BJ,S01009840,NHS Greater Glasgow and Clyde,1
+Crookston Medical Practice,6750,G53 7FY,S01009794,NHS Greater Glasgow and Clyde,5
+Craigton Medical Practice,8808,G51 4BJ,S01009840,NHS Greater Glasgow and Clyde,1
+Dr J Khouly,5905,G53 6EQ,S01009775,NHS Greater Glasgow and Clyde,1
+Drs Datta & Partners,4866,G52 3SS,S01009806,NHS Greater Glasgow and Clyde,2
+Pollokshaws Medical Centre,9464,G43 1RR,S01009935,NHS Greater Glasgow and Clyde,1
+The Khan Medical Surgery,3406,G44 4JE,S01010001,NHS Greater Glasgow and Clyde,3
+Thurso & Halkirk Medical Practice,6078,KW14 7DH,S01010805,NHS Highland,4
+Nairn Healthcare Group,15668,IV12 5EE,S01010556,NHS Highland,2
+Dunbeath Surgery,672,KW6 6EZ,S01010772,NHS Highland,2
+Canisbay & Castletown Joint Medical Practice,2838,KW14 8TY,S01010792,NHS Highland,2
+The Pearson Practice,2507,KW1 5EL,S01010781,NHS Highland,4
+Armadale Medical Practice,915,KW14 7SA,S01010811,NHS Highland,4
+Dornoch Medical Practice,2767,IV25 3LS,S01010760,NHS Highland,4
+Golspie Medical Practice,1987,KW10 6TH,S01010770,NHS Highland,3
+Lairg Health Centre,1219,IV27 4DD,S01010765,NHS Highland,3
+Assynt Medical Practice,948,IV27 4JZ,S01010813,NHS Highland,3
+Tongue Medical Practice,525,IV27 4XB,S01010811,NHS Highland,4
+Helmsdale/Brora Med Practice,2552,KW9 6QJ,S01010767,NHS Highland,2
+Creich Surgery,1625,IV24 3EP,S01010763,NHS Highland,3
+"Scourie, Kinlochbervie and Durness Medical Practice",866,IV27 4RP,S01010815,NHS Highland,4
+Three Harbours Medical Group,13624,KW14 7AR,S01010799,NHS Highland,3
+Alness/Invergordon Med Prcte,13018,IV17 0UN,S01010737,NHS Highland,2
+Applecross Surgery,258,IV54 8LS,S01010688,NHS Highland,4
+Aultbea & Gairloch Medical Practice,2369,IV22 2HU,S01010694,NHS Highland,4
+Dingwall Medical Group,11636,IV15 9QS,S01010716,NHS Highland,2
+Fortrose Medical Practice,5051,IV10 8SY,S01010721,NHS Highland,5
+Lochcarron Medical Partnership,953,IV54 8YD,S01010689,NHS Highland,4
+Munlochy Surgery,3456,IV8 8NG,S01010724,NHS Highland,4
+Strathpeffer Medical Practice,3878,IV14 9AG,S01010696,NHS Highland,4
+Tain & District Med Group,3118,IV19 1EU,S01010753,NHS Highland,2
+Tain & Fearn Area Med Practice,5879,IV19 1EU,S01010753,NHS Highland,2
+Torridon Medical Practice,441,IV22 2EZ,S01010688,NHS Highland,4
+Ullapool Health Centre,2533,IV26 2XL,S01010692,NHS Highland,4
+Carbost Medical Practice,632,IV47 8ST,S01010675,NHS Highland,4
+Dunvegan Medical Practice,1831,IV55 8GU,S01010685,NHS Highland,3
+Glenelg Health Centre,245,IV40 8JD,S01010669,NHS Highland,4
+Kyle Medical Practice,2733,IV40 8AE,S01010672,NHS Highland,3
+Portree Medical Centre,5462,IV51 9BZ,S01010679,NHS Highland,4
+Craig Nevis Surgery,3778,PH33 7AQ,S01010510,NHS Highland,4
+Glen Mor Medical Practice,5643,PH33 7AQ,S01010510,NHS Highland,4
+Tweeddale Medical Practice,5144,PH33 7AQ,S01010510,NHS Highland,4
+Kinlochleven Medical Practice,925,PH50 4QU,S01010527,NHS Highland,2
+Lochaline Medical Practice,352,PA80 5XT,S01010508,NHS Highland,4
+Acharacle Medical Practice,1406,PH36 4JU,S01010505,NHS Highland,3
+Small Isles Medical Practice - Isle of Eigg,197,PH42 4RL,S01010504,NHS Highland,4
+Aird Medical Practice,3363,IV4 7EA,S01010661,NHS Highland,3
+Croyard Road Surgery,6239,IV4 7DJ,S01010661,NHS Highland,3
+Drumnadrochit Medical Practice,2457,IV63 6UL,S01010666,NHS Highland,4
+Cill Chuimein Medical Centre,1602,PH32 4BH,S01010668,NHS Highland,4
+Loch Ness East And Strathnairn,994,IV2 6YB,S01010665,NHS Highland,3
+Culloden Surgery,6030,IV2 7LL,S01010572,NHS Highland,3
+Culloden Medical Practice,6840,IV2 7LL,S01010572,NHS Highland,3
+Kingsmills Medical Practice,9643,IV2 3BG,S01010628,NHS Highland,5
+Fairfield Medical Practice,6687,IV3 8HH,S01010639,NHS Highland,1
+Riverside Medical Practice (IV3 5PW),10162,IV3 5PW,S01010631,NHS Highland,3
+Kinmylies Medical Practice,3605,IV3 8PB,S01010654,NHS Highland,3
+Southside Road Surgery,4938,IV2 4XA,S01010626,NHS Highland,4
+Burnfield Medical Practice,7454,IV2 3PF,S01010613,NHS Highland,3
+Crown Medical Practice,6265,IV2 3NF,S01010629,NHS Highland,4
+Aviemore Medical Practice,5519,PH22 1SY,S01010536,NHS Highland,3
+Grantown-On-Spey Medical Practice,5447,PH26 3HR,S01010546,NHS Highland,5
+Kingussie Medical Practice,3026,PH21 1ET,S01010533,NHS Highland,5
+Gergask Surgery,457,PH20 1AH,S01010532,NHS Highland,4
+Cairn Medical Practice,9898,IV2 4AG,S01010626,NHS Highland,4
+Dunedin Medical Practice,2481,IV2 4TP,S01010613,NHS Highland,3
+Ballachulish Medical Practice,1558,PH49 4JB,S01010526,NHS Highland,5
+Mallaig And Arisaig Medical Practice,1832,PH41 4RN,S01010507,NHS Highland,5
+SOUTH SKYE MEDICAL PRACTICES,2871,IV49 9AA,S01010673,NHS Highland,3
+Cromarty Medical Practice,1100,IV11 8YF,S01010731,NHS Highland,4
+Jamieson Medical Practice,14511,G69 9DW,S01011706,NHS Lanarkshire,3
+Nalagatla Medical Practice,4058,G33 6HA,S01011701,NHS Lanarkshire,5
+Stepps Surgery,3680,G33 6EY,S01011703,NHS Lanarkshire,5
+The Stonelaw Practice,13314,G73 2PQ,S01012860,NHS Lanarkshire,4
+Skye Glen Medical Practice,4745,G73 2PQ,S01012860,NHS Lanarkshire,4
+Drs Jordan & Canning,4783,G73 2PQ,S01012860,NHS Lanarkshire,4
+Silverbank Surgery,5120,G72 8HA,S01012845,NHS Lanarkshire,4
+Overtoun Medical Practice,4562,G73 2PQ,S01012860,NHS Lanarkshire,4
+North Avenue Surgery,11682,G72 8AT,S01012845,NHS Lanarkshire,4
+Dr R Afuakwah,1542,G73 2LD,S01012862,NHS Lanarkshire,1
+The Craigallian Avenue Practice,9109,G72 8RW,S01012831,NHS Lanarkshire,2
+Dr Friel & Dr Bagnall,3790,G73 2PQ,S01012860,NHS Lanarkshire,4
+Parkview Practice (G73 2PQ),2330,G73 2PQ,S01012860,NHS Lanarkshire,4
+Ardoch Medical Practice,4634,G72 8HA,S01012845,NHS Lanarkshire,4
+The Motherwell Medical Practice,11353,ML1 1TA,S01011474,NHS Lanarkshire,1
+Glenboig Surgery,3888,ML5 2RY,S01011692,NHS Lanarkshire,2
+Adam Avenue Practice,9985,ML6 6DB,S01011643,NHS Lanarkshire,4
+Tinto Medical Practice,5181,ML6 6DB,S01011643,NHS Lanarkshire,4
+Bankhouse Medical Practice,5946,ML6 6DB,S01011643,NHS Lanarkshire,4
+Centenary Surgery,2360,ML5 4BY,S01011573,NHS Lanarkshire,3
+The Faraday Medical Practice,7016,ML5 3AP,S01011601,NHS Lanarkshire,4
+Kildrum Medical Practice,5720,G67 2ES,S01011754,NHS Lanarkshire,3
+Condorrat Medical Practice,5272,G67 4DN,S01011729,NHS Lanarkshire,1
+Caledonia Medical Practice,11282,G67 1BJ,S01011745,NHS Lanarkshire,2
+The Glen Medical Practice,11768,G67 1BJ,S01011745,NHS Lanarkshire,2
+Kenilworth Medical Centre,12993,G67 1BP,S01011742,NHS Lanarkshire,3
+Abronhill Medical Group,4617,G67 3BE,S01011761,NHS Lanarkshire,3
+Dr DJ Clifford,3076,G67 3BE,S01011761,NHS Lanarkshire,3
+Waverley Medical Practice (ML5 3AP),21102,ML5 3AP,S01011601,NHS Lanarkshire,4
+Atrium Medical Practice,6451,ML5 3BJ,S01011601,NHS Lanarkshire,4
+Church Street Practice,6199,ML5 3BJ,S01011601,NHS Lanarkshire,4
+Kilsyth Medical Partnership,13961,G65 9JE,S01011797,NHS Lanarkshire,5
+WELLWYND PRACTICE,20451,ML6 6DB,S01011643,NHS Lanarkshire,4
+Strathcalder Practice,8050,G74 3BE,S01012922,NHS Lanarkshire,4
+Thistle Medical Practice,6704,ML6 6DB,S01011643,NHS Lanarkshire,4
+Alba Medical Group - Coatbank,7592,ML5 3AP,S01011601,NHS Lanarkshire,4
+Mossend Surgery,6265,ML4 1DQ,S01011522,NHS Lanarkshire,1
+Bruce Medical Centre,8339,ML4 1QD,S01011522,NHS Lanarkshire,1
+Fullwood Medical Practice,2724,ML1 4LT,S01011461,NHS Lanarkshire,2
+John Street Surgery,8084,ML4 1PS,S01011522,NHS Lanarkshire,1
+Newarthill Medical Practice,3112,ML1 5AG,S01011459,NHS Lanarkshire,3
+Holytown Surgery,3358,ML1 4TH,S01011499,NHS Lanarkshire,3
+High Mill Medical Practice,7317,ML8 4BA,S01012602,NHS Lanarkshire,1
+St Luke's Medical Practice,11164,ML8 4BA,S01012602,NHS Lanarkshire,1
+Biggar Medical Practice,7913,ML12 6BE,S01012576,NHS Lanarkshire,5
+Kingshill Medical Practice,2901,ML11 8AJ,S01012590,NHS Lanarkshire,2
+Douglasdale Medical Practice,5476,ML11 0PX,S01012638,NHS Lanarkshire,3
+Chapelhall Practice,7453,ML6 8SR,S01011624,NHS Lanarkshire,2
+Orchard Medical Centre,13049,ML1 3JX,S01011480,NHS Lanarkshire,5
+Blackwood Medical Practice,3849,ML11 9SB,S01012649,NHS Lanarkshire,3
+Glebe Medical Practice,6383,ML11 0DB,S01012645,NHS Lanarkshire,4
+Willow Wood Medical Practice,3693,ML2 7LP,S01011401,NHS Lanarkshire,3
+Clyde View Medical Practice,8842,ML2 7LP,S01011401,NHS Lanarkshire,3
+Clyde Practice,2825,ML1 1TB,S01011474,NHS Lanarkshire,1
+Drs Keenan & Fisher,3373,ML1 1TB,S01011474,NHS Lanarkshire,1
+Dr A Porte & Partners,10045,ML1 2PJ,S01011381,NHS Lanarkshire,3
+Knowetop Medical Practice,4271,ML1 1TB,S01011474,NHS Lanarkshire,1
+Forestbank Medical Partnership,3646,ML7 5QE,S01011442,NHS Lanarkshire,2
+The George Practice,1775,ML7 5DS,S01011435,NHS Lanarkshire,5
+Dryburgh Medical Practice,4209,ML2 7LP,S01011401,NHS Lanarkshire,3
+Logan Practice,9965,ML2 7LP,S01011401,NHS Lanarkshire,3
+Branchalwood Medical Practice,6016,ML2 7LP,S01011401,NHS Lanarkshire,3
+Burnbrae Medical Practice,8996,ML7 5DS,S01011435,NHS Lanarkshire,5
+Rosehall Surgery,3281,ML7 4AR,S01011431,NHS Lanarkshire,2
+Calderside Medical Practice,7164,G72 0BS,S01012760,NHS Lanarkshire,1
+Victoria Medical Practice,5403,G72 0BS,S01012760,NHS Lanarkshire,1
+Bothwell Medical Centre,10670,G71 8ET,S01012798,NHS Lanarkshire,5
+Mavor Medical Practice,9430,G74 1AD,S01012928,NHS Lanarkshire,4
+Kirkview Medical Practice,7416,G74 1AD,S01012928,NHS Lanarkshire,4
+Kittoch Medical Practice,7819,G74 1AD,S01012928,NHS Lanarkshire,4
+Caldergreen Medical Practice,13700,G74 1AD,S01012928,NHS Lanarkshire,4
+Kilbryde Medical Practice,4067,G74 1AD,S01012928,NHS Lanarkshire,4
+The Murray Surgery,12214,G75 0RT,S01012974,NHS Lanarkshire,2
+Auchinraith Medical Practice,5568,G72 0BS,S01012760,NHS Lanarkshire,1
+Burnbank Medical Centre,8282,ML3 0NQ,S01012786,NHS Lanarkshire,1
+Portland Park Medical Centre,6913,ML3 7JY,S01012713,NHS Lanarkshire,5
+Wellhall Medical Centre,11983,ML3 9TZ,S01012781,NHS Lanarkshire,3
+Oak Lodge,6959,ML3 7EN,S01012717,NHS Lanarkshire,2
+Douglas Street Surgery,7805,ML3 0DR,S01012793,NHS Lanarkshire,1
+Hamilton West Medical Practice,6576,ML3 9AQ,S01012792,NHS Lanarkshire,2
+Drs Clokey & McShane,5385,ML3 7QQ,S01012711,NHS Lanarkshire,1
+Dr JM Simpson & Partners,7880,ML3 8AA,S01012710,NHS Lanarkshire,2
+Calderlea Surgery,5876,G74 3BE,S01012922,NHS Lanarkshire,4
+Gallowhill Medical Centre,1777,ML9 1EX,S01012661,NHS Lanarkshire,4
+Morgan Glen Surgery,9877,ML9 1RJ,S01012661,NHS Lanarkshire,4
+Macinnes Medical Centre,8745,ML1 5JU,S01011453,NHS Lanarkshire,2
+The Avon Medical Practice,13424,ML9 2BJ,S01012664,NHS Lanarkshire,3
+Alba Medical Group (ML10 6AS),18345,ML10 6AS,S01012688,NHS Lanarkshire,3
+Avondale Medical Practice,8193,ML10 6AS,S01012688,NHS Lanarkshire,3
+Lincluden Medical Centre,8790,G71 7NE,S01012808,NHS Lanarkshire,5
+Old Mill Surgery,8080,G71 5SU,S01011540,NHS Lanarkshire,3
+The Willow Practice,3057,G71 5RR,S01011539,NHS Lanarkshire,1
+Manse Road Medical Centre,4240,ML2 9AX,S01011417,NHS Lanarkshire,2
+Calder Valley Surgery,2080,ML2 7LP,S01011401,NHS Lanarkshire,3
+Medwyn Medical Practice,6155,ML11 8HJ,S01012584,NHS Lanarkshire,4
+Alba Medical Group - Lanark,12112,ML11 7DH,S01012630,NHS Lanarkshire,2
+Challenging Patients Service,54,G72 0BS,S01012760,NHS Lanarkshire,1
+Braids Medical Practice,10045,EH10 6QT,S01008539,NHS Lothian,5
+The Green Practice,10140,EH3 6EH,S01008860,NHS Lothian,5
+Leven Medical Practice,6536,EH3 9QQ,S01008665,NHS Lothian,4
+Southfield Medical Practice,4716,EH15 3LL,S01008712,NHS Lothian,1
+Colinton Surgery,11973,EH13 0LB,S01008446,NHS Lothian,5
+Ferniehill Surgery,6510,EH17 7AB,S01008565,NHS Lothian,1
+Leith Surgery,11061,EH6 8HQ,S01008793,NHS Lothian,2
+Niddrie Medical Practice,4270,EH16 4DT,S01008705,NHS Lothian,1
+Craigmillar Medical Group,11849,EH16 4DT,S01008705,NHS Lothian,1
+Ladywell Medical Centre (West),10761,EH12 7TB,S01008975,NHS Lothian,3
+The Long House Surgery,8163,EH5 3EL,S01008826,NHS Lothian,4
+Whinpark Medical Practice,11231,EH11 3RA,S01008481,NHS Lothian,3
+Brunton Place Surgery,9519,EH7 5EG,S01008808,NHS Lothian,4
+Bangholm Medical Centre,10676,EH5 3AH,S01008823,NHS Lothian,5
+Inchpark Surgery,5972,EH16 5QU,S01008583,NHS Lothian,3
+West End Medical Practice,11656,EH3 7EB,S01008868,NHS Lothian,4
+Bruntsfield Medical Practice,12214,EH10 4EY,S01008637,NHS Lothian,5
+Ladywell Medical Centre (East),10788,EH12 7UN,S01008975,NHS Lothian,3
+Liberton Medical Group,7971,EH16 6JT,S01008577,NHS Lothian,5
+Mackenzie Medical Centre,8438,EH8 9DX,S01008681,NHS Lothian,3
+Dr Thyne & Partners,9431,EH3 6EH,S01008860,NHS Lothian,5
+Grange Medical Group,7931,EH9 1AG,S01008610,NHS Lothian,5
+Milton Surgery,7672,EH15 3LL,S01008712,NHS Lothian,1
+Meadows Medical Practice,6035,EH3 9HW,S01008666,NHS Lothian,5
+Dalkeith Road Medical Practice,3882,EH8 9RD,S01008603,NHS Lothian,5
+Annandale Medical Practice,8566,EH7 4AT,S01008845,NHS Lothian,5
+Murrayfield Medical Practice,7519,EH12 5QX,S01008876,NHS Lothian,5
+Gracemount Medical Practice,8582,EH16 6RN,S01008557,NHS Lothian,2
+The Hopetoun Practice,7539,EH7 4AT,S01008845,NHS Lothian,5
+Blackhall Medical Centre,6753,EH4 3TH,S01008893,NHS Lothian,5
+Restalrig Park Medical Centre,5996,EH7 6UJ,S01008760,NHS Lothian,1
+Crewe Medical Centre,10351,EH5 2LY,S01008909,NHS Lothian,3
+The Southern Medical Group,8342,EH17 7PR,S01008576,NHS Lothian,5
+University Health Service,23611,EH8 9AL,S01008673,NHS Lothian,4
+Durham Road Medical Group,6020,EH15 1NY,S01008735,NHS Lothian,5
+Craiglockhart Medical Group,9628,EH13 9AF,S01008526,NHS Lothian,3
+Dr A Comiskey and Partners,11975,EH16 5TY,S01008587,NHS Lothian,5
+Baronscourt Surgery,7420,EH8 7RX,S01008742,NHS Lothian,4
+Muirhouse Medical Group,19367,EH4 4PL,S01008930,NHS Lothian,1
+Davidson's Mains Medical Centre,5936,EH4 5BP,S01008937,NHS Lothian,5
+Summerside Medical Practice,6453,EH6 4NY,S01008821,NHS Lothian,5
+St Triduana's Medical Practice,11936,EH7 6RU,S01008742,NHS Lothian,4
+Morningside Medical Practice,9207,EH10 5ER,S01008636,NHS Lothian,5
+St Leonard's Medical Centre,7956,EH8 9RU,S01008681,NHS Lothian,3
+Braefoot Medical Practice,6349,EH16 5TY,S01008587,NHS Lothian,5
+Sighthill Red Medical Practice,3626,EH11 4AU,S01008468,NHS Lothian,3
+Sighthill Green Medical Practice,10153,EH11 4AU,S01008468,NHS Lothian,3
+Riccarton General Practice,9805,EH14 4AS,S01008425,NHS Lothian,5
+The Pentlands Medical Practice,14206,EH14 5QB,S01008430,NHS Lothian,5
+Edinburgh Access Practice,791,EH1 1NA,S01008679,NHS Lothian,1
+Wester Hailes Medical Practice,7788,EH14 3JF,S01008451,NHS Lothian,1
+The Victoria Practice (EH6 5JA),6276,EH6 5JA,S01008790,NHS Lothian,2
+Slateford Medical Practice,10708,EH14 1NQ,S01008492,NHS Lothian,3
+Polwarth Medical Practice,5172,EH3 9QQ,S01008665,NHS Lothian,4
+Murrayfield Medical Centre,7806,EH12 5SS,S01008880,NHS Lothian,5
+Springwell Medical Group,10868,EH11 2JL,S01008498,NHS Lothian,3
+Firrhill Medical Centre,5470,EH13 9AF,S01008526,NHS Lothian,3
+Leith Mount Surgery,10833,EH6 4EG,S01008774,NHS Lothian,2
+Cramond Medical Practice,8661,EH4 6NS,S01008941,NHS Lothian,5
+Challenging Behaviour General Practice,27,EH10 5HF,S01008632,NHS Lothian,3
+Gilmore Medical Practice,8765,EH3 9QQ,S01008665,NHS Lothian,4
+The Group Practice - Eyre,10352,EH3 5EU,S01008856,NHS Lothian,5
+Mill Lane Surgery,6105,EH6 6TL,S01008788,NHS Lothian,4
+Boroughloch Medical Practice,10703,EH8 9RD,S01008603,NHS Lothian,5
+Links Medical Centre,6870,EH6 8BW,S01008792,NHS Lothian,3
+Parkgrove Medical Practice,3932,EH4 7NX,S01008949,NHS Lothian,3
+Ratho Medical Practice,3103,EH28 8RH,S01008994,NHS Lothian,3
+Barclay Medical Practice East Craigs,9534,EH12 8XP,S01008958,NHS Lothian,2
+Hermitage Medical Practice,7586,EH10 4RP,S01008627,NHS Lothian,5
+Tyne Medical Practice,6797,EH41 3NF,S01008256,NHS Lothian,2
+Gullane Medical Practice,5960,EH31 2HP,S01008263,NHS Lothian,5
+Riverside Medical Practice LLP,19623,EH21 7BP,S01008176,NHS Lothian,4
+The Harbours Medical Practice,9846,EH32 0JU,S01008210,NHS Lothian,3
+Lammermuir Medical Practice,5568,EH41 3NF,S01008256,NHS Lothian,2
+Whitesands Medical Practice,4984,EH42 1EE,S01008291,NHS Lothian,5
+The Orchard Medical Practice,5567,EH41 3NF,S01008256,NHS Lothian,2
+Prestonpans Group Practice,9597,EH32 9QS,S01008204,NHS Lothian,2
+North Berwick Group Practice,9696,EH39 4PU,S01008273,NHS Lothian,5
+Inveresk Medical Practice,10187,EH21 7BP,S01008176,NHS Lothian,4
+Lauderdale Medical Practice,4319,EH42 1EE,S01008291,NHS Lothian,5
+Cromwell Harbour Medical Practice,4942,EH42 1EE,S01008291,NHS Lothian,5
+East Linton Surgery,3022,EH40 3DP,S01008280,NHS Lothian,5
+Ormiston Medical Practice,4281,EH35 5AB,S01008237,NHS Lothian,3
+Tranent Medical Practice,14149,EH33 2JX,S01008226,NHS Lothian,2
+Eastfield Medical Practice,6209,EH26 8EZ,S01010945,NHS Lothian,2
+Dalhousie Medical Practice,9198,EH19 2ET,S01010983,NHS Lothian,3
+Quarryfoot Practice,4551,EH19 2ET,S01010983,NHS Lothian,3
+Roslin Medical Practice,7795,EH25 9NT,S01010957,NHS Lothian,5
+Newbattle Medical Practice,18851,EH22 4AA,S01011031,NHS Lothian,2
+Penicuik Medical Practice,11668,EH26 8LF,S01010936,NHS Lothian,2
+Pathhead Medical Practice,6306,EH37 5PP,S01011019,NHS Lothian,4
+Newbyres Medical Group,8290,EH23 4TP,S01011042,NHS Lothian,4
+Dalkeith Medical Practice,10491,EH22 1AP,S01011010,NHS Lothian,1
+Danderhall Medical Practice,4558,EH22 1LX,S01011002,NHS Lothian,3
+Strathesk Medical Group,8661,EH19 2ET,S01010983,NHS Lothian,3
+Loanhead Medical Practice,6428,EH20 9LA,S01010968,NHS Lothian,4
+Carmondean Medical Group,9869,EH54 8PY,S01013350,NHS Lothian,2
+East Calder Medical Practice,14335,EH53 0EW,S01013297,NHS Lothian,4
+Ferguson Medical Practice,6776,EH52 5LH,S01013459,NHS Lothian,2
+Newland Medical Practice,9218,EH48 2SS,S01013414,NHS Lothian,2
+Linden Medical Practice,6775,EH52 5LH,S01013459,NHS Lothian,2
+Kingsgate Medical Practice,8265,EH48 2SS,S01013414,NHS Lothian,2
+Simpson Medical Group,8708,EH48 2SS,S01013414,NHS Lothian,2
+West Calder Medical Practice,10083,EH55 8EJ,S01013256,NHS Lothian,3
+Linlithgow Group Medical Practice,15645,EH49 7ER,S01013444,NHS Lothian,3
+South Queensferry Medical Practice,12761,EH30 9HA,S01009008,NHS Lothian,5
+Whitburn Group Medical Practice,12757,EH47 0SD,S01013376,NHS Lothian,2
+Barbauchlaw Medical Practice,17271,EH48 3QB,S01013388,NHS Lothian,2
+Howden Health Centre,12376,EH54 6TP,S01013309,NHS Lothian,3
+Dedridge Medical Group,10392,EH54 6QQ,S01013278,NHS Lothian,2
+The Wood Medical Practice,7699,EH52 5LH,S01013459,NHS Lothian,2
+The Craigshill Partnership,8784,EH54 5DY,S01013306,NHS Lothian,1
+Ashgrove Group Practice,7348,EH47 7LL,S01013358,NHS Lothian,2
+Murieston Medical Practice,6695,EH54 9JZ,S01013274,NHS Lothian,5
+Almond Group Practice,10694,EH29 9AS,S01008999,NHS Lothian,3
+Barclay Medical Practice (EH54 8PY),12756,EH54 8PY,S01013350,NHS Lothian,2
+Barclay Medical Practice-Fauldhouse,8270,EH47 9JD,S01013248,NHS Lothian,1
+South Beach Medical Centre,8577,KA22 8BS,S01011243,NHS Ayrshire and Arran,1
+Central Avenue Surgery,4311,KA22 7DX,S01011253,NHS Ayrshire and Arran,1
+Tam's Brig Surgery,7832,KA8 8DD,S01012487,NHS Ayrshire and Arran,3
+The Surgery (KA7 2AQ),5206,KA7 2AQ,S01012482,NHS Ayrshire and Arran,3
+Dalblair Medical Practice,2253,KA7 1UQ,S01012482,NHS Ayrshire and Arran,3
+Barns Medical Practice,9795,KA7 1UL,S01012482,NHS Ayrshire and Arran,3
+Racecourse Road Medical Group,8310,KA7 2DF,S01012484,NHS Ayrshire and Arran,4
+The Cathcart Street Medical Practice,7713,KA7 1BJ,S01012481,NHS Ayrshire and Arran,2
+The Fullarton Medical Practice,8264,KA7 1UL,S01012482,NHS Ayrshire and Arran,3
+Ballantrae Medical Practice,1578,KA26 0NB,S01012417,NHS Ayrshire and Arran,2
+Beith Health Centre GP Practice,5783,KA15 2AE,S01011352,NHS Ayrshire and Arran,3
+Crosshouse Medical Practice,3833,KA2 0LE,S01008027,NHS Ayrshire and Arran,2
+Tanyard Medical Practice,13801,KA18 1BF,S01007918,NHS Ayrshire and Arran,2
+Dailly Medical Practice,1356,KA26 9SH,S01012420,NHS Ayrshire and Arran,3
+Dalmellington Health Centre,3560,KA6 7QL,S01007874,NHS Ayrshire and Arran,2
+Dalry Medical Practice,6026,KA24 4AF,S01011302,NHS Ayrshire and Arran,1
+Dundonald Medical Practice,5571,KA2 9HF,S01012547,NHS Ayrshire and Arran,4
+Galston Medical Practice,6109,KA4 8HW,S01007952,NHS Ayrshire and Arran,1
+Girvan Riverside Medical Practice,4309,KA26 9HQ,S01012433,NHS Ayrshire and Arran,2
+Dr McCulloch & Partners,3612,KA26 9HQ,S01012433,NHS Ayrshire and Arran,2
+Bourtreehill Medical Practice,9157,KA11 1JU,S01011196,NHS Ayrshire and Arran,1
+Eglinton Family Practice,6313,KA12 8TJ,S01011213,NHS Ayrshire and Arran,2
+Townhead Surgery,12162,KA12 0AY,S01011228,NHS Ayrshire and Arran,2
+Kilbirnie Medical Practice,7668,KA25 6HS,S01011347,NHS Ayrshire and Arran,2
+Marnock Medical Group,17718,KA3 7AE,S01007979,NHS Ayrshire and Arran,4
+Holmhead Medical Practice,11022,KA1 2DJ,S01008013,NHS Ayrshire and Arran,2
+The Wards Medical Centre,11819,KA1 1RU,S01008012,NHS Ayrshire and Arran,2
+The Surgery (KA1 2BD),8785,KA1 2BD,S01008013,NHS Ayrshire and Arran,2
+Carrick Medical Practice,3405,KA19 7BY,S01012439,NHS Ayrshire and Arran,2
+Maybole Medical Practice,4108,KA19 7BY,S01012439,NHS Ayrshire and Arran,2
+Valley Medical Practice,3752,KA18 4BA,S01007906,NHS Ayrshire and Arran,1
+Riverside Medical Practice (KA6 7LX),4088,KA6 7LX,S01007877,NHS Ayrshire and Arran,2
+Station Road Medical Practice,10316,KA9 1AQ,S01012518,NHS Ayrshire and Arran,5
+Kirkhall Surgery,7008,KA9 1AW,S01012524,NHS Ayrshire and Arran,4
+Saltcoats Group Practice,10155,KA21 5LX,S01011239,NHS Ayrshire and Arran,1
+Dr Rai's Practice,3977,PA17 5AR,S01011337,NHS Ayrshire and Arran,5
+Stewarton Medical Practice,10935,KA3 5BP,S01007935,NHS Ayrshire and Arran,2
+Templehill Surgery,10751,KA10 6BQ,S01012566,NHS Ayrshire and Arran,3
+Portland Surgery Troon,7633,KA10 6QR,S01012566,NHS Ayrshire and Arran,3
+Cumbrae Medical Practice,1245,KA28 0DE,S01011327,NHS Ayrshire and Arran,1
+Frew Terrace Surgery,11552,KA12 9DY,S01011219,NHS Ayrshire and Arran,1
+Stevenston Group Practice,4819,KA20 3AB,S01011268,NHS Ayrshire and Arran,3
+Taiglum Medical Practice,8900,KA6 7AY,S01007889,NHS Ayrshire and Arran,2
+Ballochmyle Medical Group,8732,KA5 6RU,S01007885,NHS Ayrshire and Arran,1
+Kilwinning Medical Practice,12267,KA13 6BL,S01011294,NHS Ayrshire and Arran,1
+Oxenward Surgery,4401,KA13 6EH,S01011294,NHS Ayrshire and Arran,1
+Auchinleck Surgery,2994,KA18 2AY,S01007922,NHS Ayrshire and Arran,1
+Loudoun Medical Practice,7110,KA17 0HD,S01007944,NHS Ayrshire and Arran,2
+Bankfield Medical Practice,6276,KA7 3PR,S01012463,NHS Ayrshire and Arran,1
+Largs Medical Group,13388,KA30 8LH,S01011329,NHS Ayrshire and Arran,4
+Challenging Behaviour Service,29,KA6 6AB,S01012444,NHS Ayrshire and Arran,3
+Portland Medical Practice,10491,KA1 2DL,S01008013,NHS Ayrshire and Arran,2
+Arran Medical Group,5042,KA27 8NS,S01011175,NHS Ayrshire and Arran,4
+Ayrshire Medical Group,12557,KA20 3AB,S01011268,NHS Ayrshire and Arran,3
+Dr Lorna M Macgregor & Partner,833,PA38 4DE,S01007304,NHS Highland,3
+"Drs Lazarus, Norrie, Villalba Munoz, Anderson, McGovern, Cook, Terry & Bartos",6064,PA28 6AT,S01007339,NHS Highland,4
+The Carradale Surgery,574,PA28 6QG,S01007330,NHS Highland,3
+Dr C O'Neill,171,PA78 6SY,S01007284,NHS Highland,3
+Scalasaig Medical Practice,118,PA61 7YW,S01007324,NHS Highland,4
+Taynuilt Medical Practice,5399,PA37 1PH,S01007301,NHS Highland,4
+"Drs Hall, Brennan & McLaughlin",4183,PA23 7HW,S01007367,NHS Highland,2
+Church Street Surgery,4021,PA23 8BG,S01007367,NHS Highland,2
+Cowal Medical Practice,2916,PA23 7HW,S01007367,NHS Highland,2
+Easdale Medical Practice,1059,PA34 4TL,S01007310,NHS Highland,3
+The Furnace/Inveraray Surgery,1216,PA32 8XN,S01007312,NHS Highland,4
+Islay Medical Practice,3417,PA42 7DR,S01007328,NHS Highland,4
+Jura Medical Practice,252,PA60 7XG,S01007324,NHS Highland,4
+Lochgilphead Medical Centre,6703,PA31 8JZ,S01007317,NHS Highland,3
+Dr P M R Von Kaehne,508,PA24 8AQ,S01007355,NHS Highland,3
+Mull & Iona Medical Group,3522,PA75 6PN,S01007286,NHS Highland,4
+Lorn Medical Centre,11357,PA34 4HE,S01007295,NHS Highland,1
+The Bute Practice,6326,PA20 9JL,S01007348,NHS Highland,2
+Dr Robert S B Coull,1005,PA27 8BX,S01007357,NHS Highland,4
+Dr Tittmar and Partner,1550,PA23 8SE,S01007355,NHS Highland,3
+Tarbert Medical Practice,1772,PA29 6TY,S01007322,NHS Highland,4
+Dr A MacGregor & Dr N Hallum,1181,PA21 2BE,S01007351,NHS Highland,3
+Tiree Medical Practice,748,PA77 6UN,S01007284,NHS Highland,3
+Kintyre Medical Group,1127,PA29 6XD,S01007329,NHS Highland,3
+Dr David F Troup & Partner,1124,G83 7AE,S01007358,NHS Highland,4
+Alcluith Practice,2555,G82 1PW,S01013195,NHS Greater Glasgow and Clyde,2
+The Riverbank Practice,5626,G82 1PW,S01013195,NHS Greater Glasgow and Clyde,2
+Levenside Medical Practice,8391,G82 1PW,S01013195,NHS Greater Glasgow and Clyde,2
+Dr J M Mcdevitt & Dr D Neilson,3395,G82 1PW,S01013195,NHS Greater Glasgow and Clyde,2
+Dr Stephen H Dunn & Partners,4457,G82 1PW,S01013195,NHS Greater Glasgow and Clyde,2
+Garelochhead Medical Centre,1845,G84 0SL,S01007379,NHS Highland,3
+Millig Practice,9617,G84 7QL,S01007397,NHS Highland,4
+Dr McLachlan & Partners,9158,G84 7QL,S01007397,NHS Highland,4
+Kilcreggan Medical Practice,2441,G84 0JL,S01007373,NHS Highland,4
+The Lennox Practice,4876,G83 0UA,S01013228,NHS Greater Glasgow and Clyde,1
+Loch Lomond Surgery,7685,G83 0NB,S01013223,NHS Greater Glasgow and Clyde,2
+Inchcruin Practice,3730,G83 0UE,S01013228,NHS Greater Glasgow and Clyde,1
+Oakview Medical Practice,9365,G83 0UE,S01013228,NHS Greater Glasgow and Clyde,1
+Gourock Medical Practice,8034,PA19 1AQ,S01010842,NHS Greater Glasgow and Clyde,1
+Ardgowan Medical Practice,9521,PA16 8HW,S01010875,NHS Greater Glasgow and Clyde,3
+Mount Pleasant Practice,5813,PA15 4DG,S01010888,NHS Greater Glasgow and Clyde,1
+"Drs Simpson, Luty & Ormond",2871,PA13 4AP,S01010816,NHS Greater Glasgow and Clyde,5
+The New Surgery,3591,PA13 4LE,S01010816,NHS Greater Glasgow and Clyde,5
+"Dr Hogan, Allen & Quinn",3063,PA15 4NH,S01010886,NHS Greater Glasgow and Clyde,2
+The Health Centre,3904,PA14 5EW,S01010911,NHS Greater Glasgow and Clyde,1
+Drs Macdonald & Mitchell,3882,PA14 5EW,S01010911,NHS Greater Glasgow and Clyde,1
+Newark Medical Practice,4031,PA14 5EW,S01010911,NHS Greater Glasgow and Clyde,1
+Port Glasgow Medical Centre,5205,PA14 5UD,S01010918,NHS Greater Glasgow and Clyde,2
+The Roxburgh Practice,5521,PA15 4DG,S01010888,NHS Greater Glasgow and Clyde,1
+Lochview Medical Practice,10393,PA15 4NH,S01010886,NHS Greater Glasgow and Clyde,2
+Cochrane Medical Practice,14695,PA15 4NH,S01010886,NHS Greater Glasgow and Clyde,2
+Gleniffer Medical Group,9095,G78 1SW,S01008310,NHS Greater Glasgow and Clyde,3
+Neilston Medical Centre,4235,G78 3HJ,S01008300,NHS Greater Glasgow and Clyde,3
+The Oaks Medical Practice,4203,G78 1SW,S01008310,NHS Greater Glasgow and Clyde,3
+Bishopton Medical Practice,11039,PA7 5AW,S01012216,NHS Greater Glasgow and Clyde,5
+Strathgryffe Medical Practice,10615,PA6 7AR,S01012030,NHS Greater Glasgow and Clyde,5
+Levern Medical Group,8565,G78 1SW,S01008310,NHS Greater Glasgow and Clyde,3
+"Drs Macpherson, Hanley,Tobin & Al-Ani",8752,PA8 7JQ,S01012197,NHS Greater Glasgow and Clyde,3
+Bridgewater Medical Centre,2118,PA8 7AF,S01012198,NHS Greater Glasgow and Clyde,4
+Ludovic Medical Practice,7742,PA5 8EY,S01012046,NHS Greater Glasgow and Clyde,1
+Quarryside Medical Practice,4262,PA5 8PZ,S01012046,NHS Greater Glasgow and Clyde,1
+Ravenswood Surgery (PA5 8SU),6686,PA5 8SU,S01012045,NHS Greater Glasgow and Clyde,1
+"Drs Howie, Smith & Dobbs",5291,PA5 8SL,S01012045,NHS Greater Glasgow and Clyde,1
+Dr Cassidy & Partners,4307,PA5 8PZ,S01012046,NHS Greater Glasgow and Clyde,1
+Dr Richmond & Partners,5726,PA3 3DB,S01012221,NHS Greater Glasgow and Clyde,2
+Mistylaw Medical Practice,4753,PA12 4AH,S01012019,NHS Greater Glasgow and Clyde,5
+The Charleston Surgery,7304,PA2 6LR,S01012129,NHS Greater Glasgow and Clyde,1
+Anchor Mill Medical Practice,8979,PA1 1UB,S01012128,NHS Greater Glasgow and Clyde,2
+Tannahill Surgery,3276,PA3 1NT,S01012067,NHS Greater Glasgow and Clyde,1
+King Street Surgery,9503,PA1 2PS,S01012070,NHS Greater Glasgow and Clyde,1
+The Consulting Rooms,7585,PA2 6LW,S01012129,NHS Greater Glasgow and Clyde,1
+Glenburn Medical Practice,3195,PA2 8DX,S01012102,NHS Greater Glasgow and Clyde,1
+The Kelburn Practice,4708,PA3 4AD,S01012153,NHS Greater Glasgow and Clyde,1
+The Greenlaw Practice,8285,PA3 4AD,S01012153,NHS Greater Glasgow and Clyde,1
+The Mirin Practice,8729,PA1 3QS,S01012134,NHS Greater Glasgow and Clyde,4
+The Love Street Medical Centre,5749,PA3 2DY,S01012153,NHS Greater Glasgow and Clyde,1
+The Barony Practice,6476,PA3 4AD,S01012153,NHS Greater Glasgow and Clyde,1
+Abbey Medical Centre,11368,PA1 1SU,S01012126,NHS Greater Glasgow and Clyde,4
+Braehead Medical Practice,7997,PA4 8RU,S01012183,NHS Greater Glasgow and Clyde,2
+Clydeview Medical Practice,9810,PA4 8RU,S01012183,NHS Greater Glasgow and Clyde,2
+Kingsinch Medical Practice,6816,PA4 8RU,S01012183,NHS Greater Glasgow and Clyde,2
+Westfield Medical Practice,4955,PA5 8PZ,S01012046,NHS Greater Glasgow and Clyde,1
+Bargarran Medical Practice,4236,PA8 6BS,S01012210,NHS Greater Glasgow and Clyde,3
+The Group Practice,8081,HS1 2PS,S01009043,NHS Western Isles,4
+North Harris Medical Practice,1305,HS3 3BG,S01009024,NHS Western Isles,4
+South Harris Medical Practice,554,HS5 3UA,S01009023,NHS Western Isles,3
+North Uist Medical Practice,1402,HS6 5AE,S01009022,NHS Western Isles,3
+Benbecula Medical Practice,2326,HS7 5QA,S01009019,NHS Western Isles,4
+South Uist Medical Practice,1007,HS8 5SS,S01009017,NHS Western Isles,3
+Barra Medical Practice,1271,HS9 5XD,S01009014,NHS Western Isles,3
+Broadbay Medical Practice,5858,HS1 2XB,S01009041,NHS Western Isles,2
+Langabhat Medical Practice,5283,HS2 9JP,S01009026,NHS Western Isles,3
