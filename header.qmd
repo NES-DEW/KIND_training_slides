@@ -1,0 +1,45 @@
+---
+author: "Brendan Clarke, NHS Education for Scotland, [brendan.clarke2@nhs.scot](mailto:brendan.clarke2@nhs.scot)"
+params:
+  date: "2025-06-06"
+  fn: "Unknown session"
+date: "`r params$date`"
+title: "`r params$fn`"
+date-format: DD/MM/YYYY
+bibliography: references.bib
+format:
+    revealjs:
+        theme: [default, custom.scss]
+        width: 1600
+        margin: 0.1
+        logo: src/images/KLN_banner_v07_short_200.png
+        css: src//images//logo_d.css
+        incremental: true
+        embed-resources: true
+editor_options: 
+    chunk_output_type: console
+engine: knitr
+execute: 
+  echo: false
+  warning: false
+  results: asis
+---
+
+
+```{r}
+ggplot2::theme_set(ggplot2::theme_classic(
+  base_size = 24
+))
+
+```
+
+## The KIND network
+
+-   a social learning space for staff working with **k**nowledge, **i**nformation, and **d**ata across health, social care, and housing in Scotland
+-   we offer social support, free training, mentoring, community events, ...
+-   [Teams channel](https://teams.microsoft.com/l/team/19%3AQZ7-PbFVcziG2piHLt1_ifey3I2cwFL0yBuTSS8vVao1%40thread.tacv2/conversations?groupId=106d08f3-9026-40e2-b3c7-87cd87304d58&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a) / [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu) / [training schedule](https://nes-dew.github.io/KIND-training/schedule.html)
+
+
+
+
+

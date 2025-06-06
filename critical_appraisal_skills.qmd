@@ -1,29 +1,10 @@
----
-title: "Critical appraisal skills for journal clubs"
-author: "Brendan Clarke, NHS Education for Scotland, [brendan.clarke2@nhs.scot](mailto:brendan.clarke2@nhs.scot)"
-date: "2025-05-22"
-date-format: DD/MM/YYYY
-bibliography: references.bib
-format: 
-    revealjs:
-        theme: [default, custom.scss]
-        logo: src/images/KLN_banner_v07_short_200.png
-        css: src/images/logo.css
-        incremental: true
-        embed-resources: true
-editor_options: 
-    chunk_output_type: console
-execute: 
-  echo: false
-  warning: false
-  results: "asis"
----
+{{< include header.qmd >}}
 
-## Welcome
+## Future sessions {.smaller}
 
--   this session is by [the KIND network](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5Jmn79kl25VpJIq3eErXXCYKBUMUpENjBJOENINDRFMUlYQTlCM1RVNzRSRy4u&route=shorturl), a social learning space for **k**nowledge, **i**nformation, and **d**ata staff health, care, and housing in Scotland
--   we offer social support, free training, mentoring, community events, ...
--   [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu) and [training pages](https://nes-dew.github.io/KIND-training/)
+```{r}
+KINDR::training_sessions(tr_type = "skills", start_date = params$date, n = 5)
+```
 
 
 ## Today, we'll talk about...
@@ -220,4 +201,12 @@ plot(steroid, col = rmeta::meta.colors("RoyalBlue"))
 
 ![(@patsopoulos2011)](src/images/05_prago.png)
 
-## References
+## References {.smaller}
+
+## Future sessions {.smaller}
+
+```{r}
+KINDR::training_sessions(tr_type = "skills", start_date = params$date, n = 5)
+```
+
+{{< include footer.qmd >}}

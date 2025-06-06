@@ -1,37 +1,10 @@
----
-title: "AI and Co-Pilot"
-subtitle: "A critical introduction for Public Health"
-date: 2025-05-27
-author: "[Brendan Clarke](mailto:brendan.clarke2@nhs.scot), NHS Education for Scotland"
-date-format: DD/MM/YYYY
-bibliography: references.bib
-reference-section-title: Further reading
-format: 
-    revealjs:
-        theme: [default, custom.scss]
-        logo: src/images/KLN_banner_v07_short_200.png
-        css: src/images/logo.css
-        incremental: true
-        embed-resources: true
-editor_options: 
-    chunk_output_type: console
-execute: 
-  echo: false
-  warning: false
-  results: "asis"
----
-
-
-
+{{< include header.qmd >}}
 
 ## Welcome
 + this session is 🌶: for beginners
-+ several aims
-1. Copilot is coming!
++ it aims to do two things:
 1. to suggest that the term AI is troublesome
-1. to introduce some of the different technologies that get lumped together as AI
-1. review salient criticisms and worries about AI
-1. public health-focused examples: free text, repetitious tasks, redrafting
+2. to introduce some of the different technologies that get lumped together as AI
 
 ## The KIND network
 
@@ -39,17 +12,15 @@ execute:
 -   we offer social support, free training, mentoring, community events, ...
 -   [Teams channel](https://teams.microsoft.com/l/team/19%3AQZ7-PbFVcziG2piHLt1_ifey3I2cwFL0yBuTSS8vVao1%40thread.tacv2/conversations?groupId=106d08f3-9026-40e2-b3c7-87cd87304d58&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a) / [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu)
 
-## Copilot
+## Future sessions {.smaller}
 
-+ recent SDH&C network [meeting recording](https://scottish.sharepoint.com/sites/CCLG/Shared%20Documents/7.%20%F0%9F%99%85%F0%9F%8F%BEEnabling%20Technology/Recordings/Copilot%20and%20the%20new%20Microsoft365%20Contract.%20What%20benefits%20could%20it%20bring%20for%20NHS%20Scotland_-20250507_130017-Meeting%20Recording.mp4?web=1&referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view): tens of thousands of Copilot licences procured
-+ embedded large-language model-based system
-+ safeguards around NHS data
+```{r}
+KINDR::training_sessions(start_date = params$date, n = 5)
+```
 
 
 ## A philosophical question
 + do submarines swim?
-+ what's wrong with that question?
-+ "artificial intelligence" or "artificial" + "intelligence"
 
 ## Hype
 
@@ -59,11 +30,40 @@ execute:
 
 ## Motive
 
-1. The *intelligence* part of AI is misleading: *producing* vs *understanding*
-1. AI covers many different technologies with different strengths/weaknesses
-1. And everything is complicated by the hype </br> ![So hot right now screenshot from Zoolander](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzbu0IXXvTWSW4Bim6PWKkjJQyn6PL7au6LQ&s){height="300px"}
+1. The *intelligence* part of AI is as misleading as a swimming submarine
+1. There are lots of different technologies that currently fall under the AI umbrella
+1. Points 1. and 2. matter in a practical way because of the hype </br> ![So hot right now screenshot from Zoolander](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzbu0IXXvTWSW4Bim6PWKkjJQyn6PL7au6LQ&s){height="300px"}
 
-## Producing and understanding: The Chinese room
+# Three questions for you
+
+## What does AI mean to you?
+
+. . .
+
+::: {layout-nrow="1"}
+![](src/images/hal.jpg){width="400" height="400"}
+
+![](src/images/arnie.jpg){width="400" height="400"}
+
+![](src/images/pope.jpg){width="400" height="400"}
+
+![](src/images/siri.jpg){width="400" height="400"}
+:::
+
+## Is AI...
++ Over-hyped?
++ Somewhere in between?
++ Neglected?
++ Other / don't know
+
+## About this talk
+
+Two problems:
+- a worry about intelligence: based on the swimming submarine
+- a worry about diversity: AI is several things, not just one thing
+
+
+## The Chinese room
 
 @searle1980
 
@@ -77,8 +77,9 @@ However, he is supplied with a set of intelligible rules for manipulating these 
 . . .
 
 
-+ "火" is the opposite of "水"
-+ "六" is more than "四"
+"火" is the opposite of "水"
+
+"六" is more than "四"
 
 ## Question
 
@@ -86,11 +87,13 @@ Does this poor bloke locked in a room understand the Chinese symbols?
 
 . . .
 
-Now suppose that we start asking him questions (in English) where he has to pick between responses
+Now suppose that we start asking him questions (in English):
 
 . . .
 
-+ Is "六" more than "四"? If so, respond with "是". Otherwise respond "不"
+Is "六" more than "四"?
+
+If so, respond with "是". Otherwise respond "不"
 
 
 
@@ -263,22 +266,6 @@ What if we were more ambitious with the scope of our language model?
     -   questions about inequality and regulatory moating
         -   no-one but FAANG-sized companies can afford to do this
     - training is also surprisingly manual
-    
-    
-## Public health strengths
-
-* they're fantastic at writing style - so re-drafting public-facing information
-* they're good for speeding-up repetitious production tasks (designing Power Automate flows)
-* they can be used for wrangling free text, because that's basically how they work
-
-## But!
-
-+ IG involvement is **mandatory** - this is new and complex territory
-+ you need a **human in the loop** - AI does not think and will misbehave unpredictably
-+ they should not be used to **substitute for expertise** - don't try anything you wouldn't have the skills to attempt without an AI
-+ don't trust them with **truthy** content - they'll get it weirdly wrong
-+ don't let them **source** material for you - they'll make up the perfect reference...
-+ don't rely on product **features** too heavily - they're changing fast
 
 ## Ethics
 
@@ -310,14 +297,16 @@ What if we were more ambitious with the scope of our language model?
 
 ## Why the hype matters
 
-- hype leads to perverse incentives and malfeasance: call any rubbish AI, and get paid for it
+- hype leads to perverse incentives and malfescience: call any rubbish AI, and get paid for it
 - that means that both what we mean by AI, and what tech gets included, is extra-important at present - there's an industry out there that's profiting from blurring the boundaries
 
-## Feedback
+## Future sessions {.smaller}
 
-[Feedback link](https://forms.office.com/Pages/ResponsePage.aspx?id=veDvEDCgykuAnLXmdF5Jmn79kl25VpJIq3eErXXCYKBUMlhWQVRTMERFVjU5TUdMSEVEMzYwODRWVC4u&r763e4a3a535149438ffa4d7812e07773=An%20introduction%20to%20AI%20Copilot&r96bb56f248fb457899d2a813d349450f=%222025-05-27%22)
+```{r}
+KINDR::training_sessions(start_date = params$date, n = 5)
+```
 
+{{< include footer.qmd >}}
 
-Please give us one minute of your time. We add feedback comments to our training pages, because we think this is the most useful resource for people looking for specific training that suits their needs
 
 

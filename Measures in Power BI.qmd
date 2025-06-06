@@ -1,28 +1,8 @@
----
-title: "Measures in Power BI"
-author: "Brendan Clarke, NHS Education for Scotland, [brendan.clarke2@nhs.scot](mailto:brendan.clarke2@nhs.scot)"
-date: "2024-06-28"
-date-format: DD/MM/YYYY
-bibliography: references.bib
-format: 
-    revealjs:
-        theme: [default, custom.scss]
-        logo: src/images/KLN_banner_v07_short_200.png
-        css: src/images/logo.css
-        incremental: true
-        embed-resources: true
-editor_options: 
-    chunk_output_type: console
-execute: 
-  echo: false
-  warning: false
-  results: "asis"
----
+{{< include header.qmd >}}
 
 ## Welcome
 
 + this session is for 🌶🌶 intermediate users
-+ we'll get going properly at 14.05
 + if you can't access the chat, you might need to join our Teams channel: **tinyurl.com/kindnetwork**
 + this session can be followed practically - you'll need Power BI desktop ([plus the sample file](https://github.com/NES-DEW/KIND-training/raw/main/bi_training/data/ae_weeks_start.pbix)) to do that
 
@@ -32,9 +12,11 @@ execute:
 -   we offer social support, free training, mentoring, community events, ...
 -   [Teams channel](https://teams.microsoft.com/l/team/19%3AQZ7-PbFVcziG2piHLt1_ifey3I2cwFL0yBuTSS8vVao1%40thread.tacv2/conversations?groupId=106d08f3-9026-40e2-b3c7-87cd87304d58&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a) / [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu)
 
-## Power BI training sessions
+## Future sessions {.smaller}
+
 ```{r}
-KINDR::training_sessions("Power BI")
+KINDR::training_sessions(tr_type = "Power BI", start_date = params$date, n = 5)
+
 ```
 
 
@@ -104,13 +86,17 @@ KINDR::training_sessions("Power BI")
 + `count_12_calc_kf = CALCULATE(COUNT([att]), KEEPFILTERS(ae_activity[over12] > 20))`
 + `KEEPFILTERS` pokes the default filter context through into a `CALCULATE`
 
-. . .
-
-## Evaluation and resources
-
-[Please could you complete a one-minute anonymous feedback survey?](https://forms.office.com/Pages/ResponsePage.aspx?id=veDvEDCgykuAnLXmdF5Jmn79kl25VpJIq3eErXXCYKBUMlhWQVRTMERFVjU5TUdMSEVEMzYwODRWVC4u&r763e4a3a535149438ffa4d7812e07773=Measures%20in%20Power%20BI&r96bb56f248fb457899d2a813d349450f=%222024-06-28%22)
+## Resources
 
 + [Definitive Guide to DAX](https://www.waterstones.com/book/definitive-guide-to-dax-the/marco-russo/alberto-ferrari/9781509306978)
 + [SQLBI CALCULATE](https://www.youtube.com/watch?v=HxZLkmpY6BA)
 + [SQLBI KEEPFILTERS](https://www.youtube.com/watch?v=Cj6rI0fRCaQ)
 
+## Future sessions {.smaller}
+
+```{r}
+KINDR::training_sessions(tr_type = "Power BI", start_date = params$date, n = 5)
+
+```
+
+{{< include footer.qmd >}}

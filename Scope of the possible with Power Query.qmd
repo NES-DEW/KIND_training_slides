@@ -1,22 +1,10 @@
----
-title: "Scope of the possible with Power Query"
-author: "Brendan Clarke, NHS Education for Scotland, [brendan.clarke2@nhs.scot](mailto:brendan.clarke2@nhs.scot)"
-date: "2025-05-19"
-date-format: DD/MM/YYYY
-format: 
-    revealjs:
-        theme: [default, custom.scss]
-        logo: src/images/KLN_banner_v07_short_200.png
-        css: src/images/logo.css
-        incremental: true
-        embed-resources: true
-editor_options: 
-    chunk_output_type: console
-execute: 
-  echo: false
-  warning: false
-  results: "asis"
----
+{{< include header.qmd >}}
+
+## Future sessions {.smaller}
+
+```{r}
+KINDR::training_sessions(tr_type = "Power Platform", start_date = params$date, n = 5)
+```
 
 
 ## Welcome
@@ -25,28 +13,7 @@ execute:
 - we'll introduce Power Query, run through some examples, and have plenty of time for chat
 - as ever, this is social learning. Cameras on, mics off, if possible please!
 
-## The KIND network
 
--   a social learning space for staff working with **k**nowledge, **i**nformation, and **d**ata across health, social care, and housing in Scotland
--   we offer social support, free training, mentoring, community events, ...
--   [Teams channel](https://teams.microsoft.com/l/team/19%3AQZ7-PbFVcziG2piHLt1_ifey3I2cwFL0yBuTSS8vVao1%40thread.tacv2/conversations?groupId=106d08f3-9026-40e2-b3c7-87cd87304d58&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a) / [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu)
-
-## Power Query week - training sessions
-
-+ [Power Query - a practical introduction](https://events.teams.microsoft.com/event/6551076b-5daa-4dd5-b024-4d4847136652@10efe0bd-a030-4bca-809c-b5e6745e499a) - 14:00-16:00 Tue 20th May 2025
-+ [Troubleshooting Power Query](https://events.teams.microsoft.com/event/e116e8b5-c9dc-46c9-b8da-f5163ecd9361@10efe0bd-a030-4bca-809c-b5e6745e499a) - 10:00-11:00 Wed 21st May 2025
-+ [Groups and summaries in Power Query](https://events.teams.microsoft.com/event/fcc480fa-f38b-4279-9a28-ef55a2dbdda4@10efe0bd-a030-4bca-809c-b5e6745e499a) - 14:30-15:30 Wed 21st May 2025
-+ [An introduction to PQM](https://events.teams.microsoft.com/event/593ffb0a-fbde-44ff-b800-7af7ec73c338@10efe0bd-a030-4bca-809c-b5e6745e499a) - 11:30-12:30 Thu 22nd May 2025
-
-## Power Query week - social and project sessions {.smaller}
-
-+ [Heather Mcbroom (Scottish Ambulance Service) - project presentation about merging many Excel sheets](https://events.teams.microsoft.com/event/d62bc7e2-85d6-48de-994d-3651b760b8d3@10efe0bd-a030-4bca-809c-b5e6745e499a) - 13:00 Mon 19th May 2025
-+ [Carla Dempster (NHS Lothian) - project presentation about completing templates using power query](https://events.teams.microsoft.com/event/99e9a599-dae5-4e7c-b2e1-9636d47b8e77@10efe0bd-a030-4bca-809c-b5e6745e499a) - 11:00 Wed 21st May 2025
-+ [KIND network Power Query week: help session](https://events.teams.microsoft.com/event/9125e71e-27dd-4a5e-a352-5a7c7a31bc86@10efe0bd-a030-4bca-809c-b5e6745e499a) - 14:30 Thu 22nd May 2025
-+ [Alupha Chan (NHS Tayside) - project presentation - let's stitch sheets together!](https://events.teams.microsoft.com/event/1a1a5c2a-c412-4189-bc33-ee85d7c14a09@10efe0bd-a030-4bca-809c-b5e6745e499a) - 10:00 Fri 23rd May 2025
-+ [Louise McCafferty Thomson and Sarah Aitken (NHS Education for Scotland) - project presentation about data processing with Power Query](https://events.teams.microsoft.com/event/6044579c-5571-4d56-be57-6b7e83d7c4c1@10efe0bd-a030-4bca-809c-b5e6745e499a) - 11:00 Fri 23rd May 2025
-+ [David Bain (NHS GGC) - project presentation about combining referral data across a large clinical service](https://events.teams.microsoft.com/event/4ff545d0-7766-4e10-ad28-7d0b6cc7b1e0@10efe0bd-a030-4bca-809c-b5e6745e499a) - 13:00 Fri 23rd May 2025
-+ [David Pentland (NHS GGC) - project presentation about using PQ to extract data from planner](https://events.teams.microsoft.com/event/819c32cb-d011-489d-811c-5f3b1d0b5984@10efe0bd-a030-4bca-809c-b5e6745e499a) - 14:30 Fri 23rd May 2025
 
 ## Session outline
 
@@ -117,28 +84,10 @@ Don't repeat yourself
 - poor documentation
 - bafflingly small user-base
 
-## Feedback and links
-
--   please can I [ask for some feedback](https://forms.office.com/Pages/ResponsePage.aspx?id=veDvEDCgykuAnLXmdF5Jmn79kl25VpJIq3eErXXCYKBUMlhWQVRTMERFVjU5TUdMSEVEMzYwODRWVC4u&r763e4a3a535149438ffa4d7812e07773=Scope%20of%20the%20possible%20with%20Power%20Query&r96bb56f248fb457899d2a813d349450f=2025-05-19) - takes less than a minute, completely anonymous, helps people like you find the right training for them
--  consider joining [the KIND network](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5Jmn79kl25VpJIq3eErXXCYKBUMUpENjBJOENINDRFMUlYQTlCM1RVNzRSRy4u&route=shorturl), subscribing to our [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu), or have a look at our [training pages](https://nes-dew.github.io/KIND-training/)
+## Future sessions {.smaller}
 
 ```{r}
-KINDR::feedback_url("session name", "2025-05-20")
+KINDR::training_sessions(tr_type = "Power Platform", start_date = params$date, n = 5)
 ```
 
-## Power Query week - training sessions
-
-+ [Power Query - a practical introduction](https://events.teams.microsoft.com/event/6551076b-5daa-4dd5-b024-4d4847136652@10efe0bd-a030-4bca-809c-b5e6745e499a) - 14:00-16:00 Tue 20th May 2025
-+ [Troubleshooting Power Query](https://events.teams.microsoft.com/event/e116e8b5-c9dc-46c9-b8da-f5163ecd9361@10efe0bd-a030-4bca-809c-b5e6745e499a) - 10:00-11:00 Wed 21st May 2025
-+ [Groups and summaries in Power Query](https://events.teams.microsoft.com/event/fcc480fa-f38b-4279-9a28-ef55a2dbdda4@10efe0bd-a030-4bca-809c-b5e6745e499a) - 14:30-15:30 Wed 21st May 2025
-+ [An introduction to PQM](https://events.teams.microsoft.com/event/593ffb0a-fbde-44ff-b800-7af7ec73c338@10efe0bd-a030-4bca-809c-b5e6745e499a) - 11:30-12:30 Thu 22nd May 2025
-
-## Power Query week - social and project sessions {.smaller}
-
-+ [Heather Mcbroom (Scottish Ambulance Service) - project presentation about merging many Excel sheets](https://events.teams.microsoft.com/event/d62bc7e2-85d6-48de-994d-3651b760b8d3@10efe0bd-a030-4bca-809c-b5e6745e499a) - 13:00 Mon 19th May 2025
-+ [Carla Dempster (NHS Lothian) - project presentation about completing templates using power query](https://events.teams.microsoft.com/event/99e9a599-dae5-4e7c-b2e1-9636d47b8e77@10efe0bd-a030-4bca-809c-b5e6745e499a) - 11:00 Wed 21st May 2025
-+ [KIND network Power Query week: help session](https://events.teams.microsoft.com/event/9125e71e-27dd-4a5e-a352-5a7c7a31bc86@10efe0bd-a030-4bca-809c-b5e6745e499a) - 14:30 Thu 22nd May 2025
-+ [Alupha Chan (NHS Tayside) - project presentation - let's stitch sheets together!](https://events.teams.microsoft.com/event/1a1a5c2a-c412-4189-bc33-ee85d7c14a09@10efe0bd-a030-4bca-809c-b5e6745e499a) - 10:00 Fri 23rd May 2025
-+ [Louise McCafferty Thomson and Sarah Aitken (NHS Education for Scotland) - project presentation about data processing with Power Query](https://events.teams.microsoft.com/event/6044579c-5571-4d56-be57-6b7e83d7c4c1@10efe0bd-a030-4bca-809c-b5e6745e499a) - 11:00 Fri 23rd May 2025
-+ [David Bain (NHS GGC) - project presentation about combining referral data across a large clinical service](https://events.teams.microsoft.com/event/4ff545d0-7766-4e10-ad28-7d0b6cc7b1e0@10efe0bd-a030-4bca-809c-b5e6745e499a) - 13:00 Fri 23rd May 2025
-+ [David Pentland (NHS GGC) - project presentation about using PQ to extract data from planner](https://events.teams.microsoft.com/event/819c32cb-d011-489d-811c-5f3b1d0b5984@10efe0bd-a030-4bca-809c-b5e6745e499a) - 14:30 Fri 23rd May 2025
+{{< include footer.qmd >}}

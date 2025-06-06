@@ -1,28 +1,10 @@
----
-title: "Scope of the possible with Power BI"
-author: "Brendan Clarke, NHS Education for Scotland, [brendan.clarke2@nhs.scot](mailto:brendan.clarke2@nhs.scot)"
-date-format: DD/MM/YYYY
-bibliography: references.bib
-format: 
-    revealjs:
-        theme: [default, custom.scss]
-        logo: src/images/KLN_banner_v07_short_200.png
-        css: src/images/logo.css
-        incremental: true
-        embed-resources: true
-editor_options: 
-    chunk_output_type: console
-execute: 
-  echo: false
-  warning: false
-  results: "asis"
----
+{{< include header.qmd >}}
 
-## The KIND network
+## Future sessions {.smaller}
 
--   a social learning space for staff working with **k**nowledge, **i**nformation, and **d**ata across health, social care, and housing in Scotland
--   we offer social support, free training, mentoring, community events, ...
--   [Teams channel](https://teams.microsoft.com/l/team/19%3AQZ7-PbFVcziG2piHLt1_ifey3I2cwFL0yBuTSS8vVao1%40thread.tacv2/conversations?groupId=106d08f3-9026-40e2-b3c7-87cd87304d58&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a) / [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu)
+```{r}
+KINDR::training_sessions(tr_type = "Power Platform", start_date = params$date, n = 5)
+```
 
 ## Session outline
 
@@ -163,9 +145,10 @@ openxlsx::saveWorkbook(wb, "data/apr_2024_clean.xlsx", overwrite = TRUE)
 # renderthis::to_pdf("Scope of the possible with Power BI.html", to = paste0(snakecase::to_snake_case("Scope of the possible with Power BI"), ".pdf"))
 
 ```
+## Future sessions {.smaller}
 
-## Chat, queries, questions
+```{r}
+KINDR::training_sessions(tr_type = "Power BI", start_date = params$date, n = 5)
+```
 
--   Teams channel: **tinyurl.com/kindnetwork**
--   weekly email update: **tinyurl.com/kindupdate**
--   get in touch: brendan.clarke2@nhs.scot
+{{< include footer.qmd >}}

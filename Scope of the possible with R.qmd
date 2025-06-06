@@ -1,22 +1,4 @@
----
-title: "Scope of the possible with R"
-author: "Brendan Clarke, NHS Education for Scotland, [brendan.clarke2@nhs.scot](mailto:brendan.clarke2@nhs.scot)"
-date: "2024-06-24"
-date-format: DD/MM/YYYY
-format: 
-    revealjs:
-        theme: [default, custom.scss]
-        logo: src/images/KLN_banner_v07_short_200.png
-        css: src/images/logo.css
-        incremental: true
-        embed-resources: true
-editor_options: 
-    chunk_output_type: console
-execute: 
-  echo: false
-  warning: false
-  results: "asis"
----
+{{< include header.qmd >}}
 
 ## Welcome
 
@@ -24,11 +6,12 @@ execute:
 -   we'll get going properly at 15.05
 -   if you can't access the chat, you might need to join our Teams channel
 
-## The KIND network
+## Future sessions {.smaller}
 
--   a social learning space for staff working with **k**nowledge, **i**nformation, and **d**ata across health, social care, and housing in Scotland
--   we offer social support, free training, mentoring, community events, ...
--   [Teams channel](https://teams.microsoft.com/l/team/19%3AQZ7-PbFVcziG2piHLt1_ifey3I2cwFL0yBuTSS8vVao1%40thread.tacv2/conversations?groupId=106d08f3-9026-40e2-b3c7-87cd87304d58&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a) / [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu)
+```{r}
+KINDR::training_sessions(tr_type = "R", start_date = params$date, n = 5)
+```
+
 
 ## Session outline
 
@@ -236,22 +219,18 @@ ae_activity_loc |>
 -   complex IG landscape
 -   messy skills development journey
 
-
-## Skill development
-
-
-```{r}
-source("R/training_sessions.R")
-source("R/nice_date.R")
-
-training_sessions("R") 
-
-```
-
-
 ## Chat, queries, questions
 
 -   Teams channel: **tinyurl.com/kindnetwork**
 -   weekly email update: **tinyurl.com/kindupdate**
 -   get in touch: brendan.clarke2\@nhs.scot
 -   [session feedback link](https://forms.office.com/Pages/ResponsePage.aspx?id=veDvEDCgykuAnLXmdF5Jmn79kl25VpJIq3eErXXCYKBUMlhWQVRTMERFVjU5TUdMSEVEMzYwODRWVC4u&r763e4a3a535149438ffa4d7812e07773=Scope%20of%20the%20possible%20with%20R&r96bb56f248fb457899d2a813d349450f=%222024-06-24%22) at [resource page](https://nes-dew.github.io/KIND-training/r_training/scope_of_the_possible_with_r.html)
+
+
+## Future sessions {.smaller}
+
+```{r}
+KINDR::training_sessions(tr_type = "R", start_date = params$date, n = 5)
+```
+
+{{< include footer.qmd >}}

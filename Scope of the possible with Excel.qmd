@@ -1,23 +1,4 @@
----
-title: "Scope of the possible with Excel"
-author: "Brendan Clarke, NHS Education for Scotland, [brendan.clarke2@nhs.scot](mailto:brendan.clarke2@nhs.scot)"
-date: "2024-06-06"
-date-format: DD/MM/YYYY
-format: 
-    revealjs:
-        theme: [default, custom.scss]
-        logo: src/images/KLN_banner_v07_short_200.png
-        css: src/images/logo.css
-        incremental: true
-        embed-resources: true
-editor_options: 
-    chunk_output_type: console
-execute: 
-  echo: false
-  warning: false
-  results: "asis"
----
-
+{{< include header.qmd >}}
 
 ## Welcome
 
@@ -30,6 +11,13 @@ execute:
 -   a social learning space for staff working with **k**nowledge, **i**nformation, and **d**ata across health, social care, and housing in Scotland
 -   we offer social support, free training, mentoring, community events, ...
 -   [Teams channel](https://teams.microsoft.com/l/team/19%3AQZ7-PbFVcziG2piHLt1_ifey3I2cwFL0yBuTSS8vVao1%40thread.tacv2/conversations?groupId=106d08f3-9026-40e2-b3c7-87cd87304d58&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a) / [mailing list](https://forms.office.com/pages/responsepage.aspx?id=veDvEDCgykuAnLXmdF5JmpopIZB9ynRJnrPUHVFccipURjM2NkZJUkhGOFlQRjQxRFhVUTgwT0UwVyQlQCN0PWcu)
+
+
+## Future sessions {.smaller}
+
+```{r}
+KINDR::training_sessions(tr_type = "Excel", start_date = params$date, n = 5)
+```
 
 ## Session outline
 
@@ -90,18 +78,6 @@ execute:
 + take care with formatting and accessibility/reuse
 + bet that your spreadsheet will last longer, and travel further, than you think
 
-## Future Excel training sessions {.smaller}
-
-
-```{r}
-
-library(tidyverse)
-source("R/training_sessions.R")
-source("R/nice_date.R")
-
-training_sessions("Excel") 
-
-```
 
 
 ## Chat, queries, questions
@@ -110,7 +86,12 @@ training_sessions("Excel")
 - weekly email update: **tinyurl.com/kindupdate**
 - please let me know (brendan.clarke2@nhs.scot) what would be most helpful to you and your team
 
+
+## Future sessions {.smaller}
+
 ```{r}
-# renderthis::to_pdf("Scope of the possible with Excel.html")
+KINDR::training_sessions(tr_type = "Excel", start_date = params$date, n = 5)
 ```
+
+{{< include footer.qmd >}}
 

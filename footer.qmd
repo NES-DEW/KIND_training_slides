@@ -1,0 +1,6 @@
+
+
+## Feedback
+
+Please can you [spare us one minute of your time to give feedback](`r KINDR::feedback_url(params$fn, date = params$date)`)?
+  
