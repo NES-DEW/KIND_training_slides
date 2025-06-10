@@ -1,0 +1,490 @@
+{{< include header.qmd >}}
+
+---
+execute:
+  echo: true
+---
+
+## Future sessions {.smaller}
+
+```{r}
+#| echo: false
+
+KINDR::training_sessions(tr_type = "R", start_date = params$date, n = 5)
+```
+
+## (really) big picture
+
++ this session is about modelling in R
+-   we'll start with a simple example model (predicting weight from height)
+-   we'll talk a bit about what models are (and aren't)
+-   we'll look at some ways of improving our initial model
+-   and we'll finish by giving a few examples of different modelling strategies
+
+## Setup
+
+Bit of basic package loading:
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+library(tidymodels)
+library(glue)
+
+conflicted::conflicts_prefer(palmerpenguins::penguins)
+```
+
+## Models
+
++ we have lots of ways of finding relationships between variables in data
+
+## Correlation example
+
+```{r}
+#| echo: false
+
+corr_ex <- tibble(a = rnorm(1000, 35, 5),
+       b = a * 0.5 + rnorm(1000, 0, 4))
+
+corr_ex |>
+  ggplot(aes(x = a, y = b)) +
+  geom_point(alpha = 3/5)
+```
+
+## Correlation example
+
+```{r}
+#| echo: false
+
+corr_ex |>
+  ggplot(aes(x = a, y = b)) +
+  geom_point(alpha = 3/5) +
+  geom_smooth(se = F)
+```
+
+## Models
+
++ we have lots of ways of finding relationships between variables in data
++ modelling describes a family of strategies that:
+    + are quantitative (in this context)
+    + aim at detecting relationships between variables
+    + and making those relationships suitable for a range of purposes:
+        + prediction
+        + explanation
+        + intervention
+
+## Some data
+
+-   I guess that height and weight are likely to be related
+-   we can informally understand that by plotting them
+-   **beware** totally unrealistic synthetic dataset ahead (via [kaggle](https://www.kaggle.com/datasets/burnoutminer/heights-and-weights-dataset/discussion))...
+
+## Some data
+
+```{r}
+#| echo: false
+hw_dat <- read_csv("data/SOCR-HeightWeight.csv") |>
+  mutate(height = `Height(Inches)` * 2.54, weight = `Weight(Pounds)` / 2.20 ) |>
+  select(height, weight)
+
+hw_cloud <- hw_dat |>
+  ggplot() +
+  geom_point(aes(x = height, y = weight), alpha = 0.2)
+```
+
+```{r}
+#| echo: false
+hw_dat |>
+  slice_sample(n = 5) |>
+  knitr::kable()
+```
+
+## Some data
+
+```{r}
+#| echo: false
+hw_cloud
+```
+
+## Predicting from data
+
+-   how can we use this data to confidently predict weight from height?
+
+## One strategy
+-   imagine that we split the data up into 5cm height increments and found the average weight...
+
+
+## Predicting from data
+
+```{r}
+#| output-location: slide
+
+hw_groups <- hw_dat |>
+  mutate(height = round((2 * height), -1)/2) |> # an ugly way of rounding to nearest 5
+  group_by(height) |>
+  summarise(weight = round(mean(weight), 2)) |>
+  arrange(height) 
+```
+
+```{r}
+#| echo: false
+hw_groups |>
+  slice(1:5) |>
+  knitr::kable()
+```
+
+
+## Plotting groups on data
+
+```{r}
+#| echo: false
+hw_cloud +
+  geom_segment(
+    data = hw_groups,
+    aes(x = (height - 2.5), xend = (height + 2.5), y = weight, yend = weight), color = "orange",
+    size = 3
+  )
+
+```
+
+## Better predictions
+
+-   that gives us a very simple way of predicting weight from height
+    -   find the group an individual belongs to, and read off the weight
+-   this is a (crude) model that works fairly well between about 160 and 190cm height
+-   we could make it into a quick predictive model for height and weight
+
+. . .
+
+```{r}
+hw_gr_fun <- function(h) {
+  ifelse(
+    h < 160 |
+      h > 190,
+    "Out of range error - only works between 160cm and 190cm",
+    hw_groups$weight[match(round(h * 2,-1) / 2 , hw_groups$height)]
+  )
+  
+}
+```
+
+## Better predictions
+
+```{r}
+#| echo: true
+
+hw_gr_fun(159)
+hw_gr_fun(162)
+hw_gr_fun(163)
+hw_gr_fun(188)
+
+```
+
+## Why not stop there?
+
+-   it's very crude (5cm increments)
+-   we can't extrapolate or generalise these results at all
+-   things get weird towards group boundaries - so `r hw_gr_fun(167.4)`kg at 167.4cm, `r hw_gr_fun(167.5)`kg at 167.5cm
+-   we don't have any understanding of how these variables are related
+
+## So what's next?
+
+-   we saw that the relationship between weight and height was pretty well a straight line
+-   can we find a mathematical formula relating height and weight?
+
+## A reminder
+
+
+```{r}
+#| echo: false
+#| output-location: slide
+
+tibble(x = -1:10, y = (3 + x*2)) |>
+  ggplot() +
+  geom_line(aes(x = x, y = y)) +
+  coord_cartesian(xlim = c(0,10), ylim = c(0,25), expand = FALSE) +
+  scale_x_continuous(breaks = scales::breaks_extended(Q = 0:10)) +
+  geom_segment(aes(x = 0.1, xend = 0.1, y = 0, yend = 3), arrow = arrow(angle = 10, length = unit(0.1, "inches"),
+      ends = "both", type = "closed")) +
+  geom_text(aes(x = 0.8, y = 1.5, label = "Intercept")) +
+  geom_label(
+    label = "y = mx + c", 
+    x = 4.1,
+    y = 15,
+    label.padding = unit(0.55, "lines"), # Rectangle size around label
+    label.size = 0.75,
+    color = "#202c39",
+    fill = "#f4f3ee"
+  )
+
+```
+
+## Minimising your residuals
+
+```{r}
+#| echo: false
+intercept <- -37.53
+slope <- 0.55
+
+wtso <- function(h){
+  (h * slope) + intercept + sample(-15:15, 1, T)
+}
+
+tibble(height = sample(c(160:190), 20, T), 
+       fitted = intercept + (slope * height)) |>
+  rowwise() |>
+  mutate(weight = wtso(height)) |>
+  ungroup() |>
+  mutate(diffs = weight - fitted) |>
+  ggplot(aes(x = height, y = weight)) +
+  geom_abline(slope = slope, intercept = intercept) +
+  geom_segment(aes(xend = height, yend = fitted )) +
+  geom_point() 
+
+```
+
+. . .
+
++ $R^2$ = [coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination)
+
+## So what?
+
+So now we can make and use this model to predict weight from height:
+
+. . .
+
+```{r}
+hw_lm_fun <- function(h){
+  ifelse(h < 160 | h > 190, "Out of range error - only works between 160cm and 190cm", (h*0.55) - 37.5)
+}
+```
+
+```{r}
+#| echo: true
+
+hw_lm_fun(162)
+hw_lm_fun(163)
+hw_lm_fun(183)
+hw_lm_fun(172.6)
+
+```
+
+## Linear models
+
+-   this is a linear model
+-   we're looking for a straight-line correlation
+-   our model consists of two things
+    -   an intercept value ($β_0$)
+    -   a gradient value ($β_1$)
+-   we can estimate our response (weight) by plugging our predictor (height) into a formula:
+    -   $y = β_0 + β_1x$
+-   (or multiply the predictor by the gradient, then add the intercept)
+
+## Model is a pretty fancy word for a simple formula
+
+-   so why call them models?
+-   this is a simple question with several complicated answers
+    -   Model implies some kind of predictive power. We can do things with models
+    -   Model also implies some kind of backing from real world data, evidence, etc
+-   so models are not completely made up
+
+## Model is a pretty fancy word for a simple formula
+
+-   But they're not completely true either
+    -   models simplify
+    -   good models often only represent part of a complicated issue
+        -   e.g. our height/weight synthetic data is from 1992, is meant to represent 18 year olds, is (I think) based on a few population measurements from Hong Kong...
+        -   It's not all-weights-everywhere-for-ever
+        
+## Luckily, fitting linear models is easy in R
+
+```{r}
+linear_model <- hw_dat %>%
+  lm(weight ~height, data = .) # outcome ~ predictor shorthand
+
+linear_model |>
+  broom::tidy() # show coefficients, which we can use to make predictions
+```
+
+. . .
+
++ [broom](https://cran.r-project.org/web/packages/broom/vignettes/broom.html) to turn the output of `lm()` into something tidyverse-friendly
++ `summary()` is also useful running interactively
+
+## Model helpers (1)
+```{r}
+linear_model |>
+  summary() |>
+  broom::glance() 
+```
+
+## Model helpers (2)
+```{r}
+linear_model |>
+  augment() |> # show the residuals
+  slice(1:5) |>
+  knitr::kable()
+```
+
+## Model helpers (3)
+```{r}
+plot(linear_model, which = 1) # show predicted values
+```
+
+## Model helpers (4)
+
++ [finalfit](https://finalfit.org/) for producing exportable results
+
+
+
+## Tidy models
+
+```{r}
+tidymodels_prefer()
+
+linear_reg() |> 
+  set_engine("lm") |>
+  fit(weight ~ height, data = hw_dat) |>
+  extract_fit_engine() |>
+  tidy() |>
+  select(1:2) |>
+  mutate(estimate = round(estimate, 2)) |>
+  knitr::kable()
+
+```
+
+. . .
+
+-   we've done this using linear regression, which is a modelling technique for straight lines
+-   roughly, we find the single straight line that fits best between all our data points
+
+
+
+
+## Multinomial logistic regression
+
+(using [great detailed intro in R](https://quantifyinghealth.com/multinomial-logistic-regression-in-r/))
+
+```{r}
+#| output-location: slide
+library(palmerpenguins)
+
+penguins_mm <- palmerpenguins::penguins |> 
+  select(bill_length_mm, flipper_length_mm, species)
+
+model_fit <- multinom_reg() |> 
+  fit(species ~ bill_length_mm + flipper_length_mm, data = penguins_mm)
+
+tidy(model_fit, exponentiate = TRUE, conf.int = TRUE) |> 
+  mutate_if(is.numeric, round, 2) |> 
+  mutate(`95% CI` = glue("{conf.low} - {conf.high}")) |>
+  select(species = y.level, term, estimate, `p value` = p.value, `95% CI`) |>
+  knitr::kable(caption = "Multinomial regression showing relationship between species and bill/flipper lengths")
+```
+
+## Multinomial logistic regression
+
+```{r}
+#| output-location: slide
+
+model_fit |> 
+  augment(new_data = palmerpenguins::penguins) |>
+  slice(1, 99, 248, 303, 74) |>
+  select(species, contains("length_mm"), contains(".pred")) |>
+  rename(`bill length` = "bill_length_mm",
+         `flipper length` = "flipper_length_mm",
+         "prediction" = ".pred_class",
+         "Adelie?" = ".pred_Adelie", 
+         "Gentoo?" = ".pred_Gentoo", 
+         "Chinstrap?" = ".pred_Chinstrap") |>
+  mutate_if(is.numeric, round, 2) |>
+  knitr::kable(caption="Predicted species from the model")
+```
+
+## Multinomial logistic regression
+
+```{r}
+#| output-location: slide
+
+possibilities <- expand_grid(
+  bill_length_mm = seq(32, 60, length.out = 100),
+  flipper_length_mm = seq(172, 231, length.out = 100)
+)
+
+possibilities <- bind_cols(possibilities,
+                           predict(model_fit, new_data = possibilities))
+
+possibilities |> 
+  ggplot(aes(x = bill_length_mm, y = flipper_length_mm)) +
+  geom_point(aes(color = .pred_class), alpha = 0.1) +
+  geom_point(data = penguins, aes(color = species, shape = species),
+             size = 2,
+             alpha = 0.8) +
+  labs(color = "Species", shape = "Species") 
+```
+
+## Further reading
+
+-   @Lash2021
+-   @james2021d, with [open-access version](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf) and [lab manual](https://emilhvitfeldt.github.io/ISLR-tidymodels-labs)
+-   [Tidy modelling with R](https://www.tmwr.org/)
+
+
+
+
+
+
+## Families of models
+
++ basic approach from https://r4ds.had.co.nz/model-basics.html: define and plot a family of random models
+
+. . .
+
+```{r}
+#| output-location: slide
+
+models <- tibble(
+  a1 = runif(250, -40, 40),
+  a2 = runif(250, -0.75, 0.75)
+)
+```
+
+## Then plot
+```{r}
+
+hw_cloud +
+  geom_abline(aes(intercept = a1, slope = a2), data = models, color = "white", alpha = 4/5)
+```
+
+## Then optimise
+
+```{r}
+simple_model <- function(mod_params, dat){
+  mod_params[1] + (dat$height * mod_params[2])
+}
+
+model_dist <- function(mod, dat) {
+  diff <- dat$weight - simple_model(mod, dat)
+  sqrt(mean(diff ^ 2))
+} # RMS deviation
+
+model_dist(c(-37,0.55), hw_dat) # try to minimise this value
+```
+
+## Future sessions {.smaller}
+
+```{r}
+KINDR::training_sessions(tr_type = "R", start_date = params$date, n = 5)
+```
+
+{{< include footer.qmd >}}
+
+
+## References
+
+
+
+
+
+
+

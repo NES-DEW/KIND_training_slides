@@ -31,4 +31,4 @@ renda <- function(active_sessions, session_dates){
 
 # walk2(active_sessions, session_dates, renda)
 # renda("CSS and Javascript for non-web developers.qmd", "2025-05-06")
-renda("Joining data with dplyr.qmd", "2025-05-06")
+renda("Practical Power Pivot.qmd", format(lubridate::today(), "%Y-%m-%d"))
