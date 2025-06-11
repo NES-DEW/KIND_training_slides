@@ -1,0 +1,26 @@
+{{< include header.qmd >}}
+
+---
+execute:
+  echo: true
+---
+
+## Future sessions {.smaller}
+
+```{r}
+#| echo: false
+
+KINDR::training_sessions(tr_type = "R", start_date = params$date, n = 5)
+```
+
+{{< include "content/Summarising data with dplyr.qmd" >}}
+
+## Future sessions {.smaller}
+
+```{r}
+#| echo: false
+KINDR::training_sessions(tr_type = "R", start_date = params$date, n = 5)
+```
+
+{{< include footer.qmd >}}
+

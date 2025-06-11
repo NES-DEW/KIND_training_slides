@@ -19,7 +19,7 @@ format:
         margin: 0.1
         logo: src/images/KLN_banner_v07_short_200.png
         css: src//images//logo_d.css
-        incremental: true
+        incremental: false
         embed-resources: true
 editor_options: 
     chunk_output_type: console

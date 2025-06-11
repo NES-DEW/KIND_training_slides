@@ -23,12 +23,21 @@ session_dates <- sessions |>
 # active_sessions <- list.files(pattern = "*.qmd")
 # session_dates <- "2025-07-01"
 
+active_sessions # full fn with ext
 
 renda <- function(active_sessions, session_dates){
+  
+  url <- paste0("https://raw.githubusercontent.com/NES-DEW/KIND-training/refs/heads/main/content/",
+                URLencode(active_sessions))
+  
+  destfile <- paste0("content/", active_sessions)
+  
+  curl::curl_download(url = url, destfile = destfile)
+  
   quarto::quarto_render(active_sessions, execute_params = list(date = session_dates, 
                                                                fn = tools::file_path_sans_ext(active_sessions)))
 }
 
-# walk2(active_sessions, session_dates, renda)
+walk2(active_sessions, session_dates, renda)
 # renda("CSS and Javascript for non-web developers.qmd", "2025-05-06")
-renda("Practical Power Pivot.qmd", format(lubridate::today(), "%Y-%m-%d"))
+# renda("Joining data with dplyr.qmd", format(lubridate::today(), "%Y-%m-%d"))
