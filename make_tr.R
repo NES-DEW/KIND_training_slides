@@ -32,12 +32,13 @@ renda <- function(active_sessions, session_dates){
   
   destfile <- paste0("content/", active_sessions)
   
-  curl::curl_download(url = url, destfile = destfile)
-  
+  try(curl::curl_download(url = url, destfile = destfile))
+
   quarto::quarto_render(active_sessions, execute_params = list(date = session_dates, 
                                                                fn = tools::file_path_sans_ext(active_sessions)))
 }
 
-walk2(active_sessions, session_dates, renda)
-# renda("CSS and Javascript for non-web developers.qmd", "2025-05-06")
-# renda("Joining data with dplyr.qmd", format(lubridate::today(), "%Y-%m-%d"))
+# walk2(list.files(pattern = "*.qmd"), format(lubridate::today(), "%Y-%m-%d"), renda) # do everything for today
+walk2(active_sessions, session_dates, renda) # do everything coming up with the correct date
+# renda("CSS and Javascript for non-web developers.qmd", "2025-05-06") # test a session and date
+# renda("Joining data with dplyr.qmd", format(lubridate::today(), "%Y-%m-%d")) # test a session today

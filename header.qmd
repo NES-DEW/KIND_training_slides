@@ -17,8 +17,8 @@ format:
         theme: [default, custom.scss]
         width: 1600
         margin: 0.1
-        logo: src/images/KLN_banner_v07_short_200.png
-        css: src//images//logo_d.css
+        logo: images/KLN_banner_v07_short_200.png
+        css: images//logo_d.css
         incremental: false
         embed-resources: true
 editor_options: 

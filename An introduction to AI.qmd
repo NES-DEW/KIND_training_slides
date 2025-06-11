@@ -35,13 +35,14 @@ KINDR::training_sessions(start_date = params$date, n = 5)
 . . .
 
 ::: {layout-nrow="1"}
-![](src/images/hal.jpg){width="400" height="400"}
+![](images/hal.jpg){width="400" height="400"}
 
-![](src/images/arnie.jpg){width="400" height="400"}
+![](images/arnie.jpg){width="400" height="400"}
 
-![](src/images/pope.jpg){width="400" height="400"}
 
-![](src/images/siri.jpg){width="400" height="400"}
+![](images/pope.jpg){width="400" height="400"}
+
+![](images/siri.jpg){width="400" height="400"}
 :::
 
 ## Is AI...
@@ -125,7 +126,7 @@ If so, respond with "是". Otherwise respond "不"
 
 ::: columns
 ::: {.column width="25%"}
-![](src/images/altair.jpg) [(Packard 1979)](https://www.goodreads.com/book/show/191062.The_Third_Planet_from_Altair)
+![](images/altair.jpg) [(Packard 1979)](https://www.goodreads.com/book/show/191062.The_Third_Planet_from_Altair)
 :::
 
 ::: {.column width="60%"}
@@ -137,7 +138,7 @@ If so, respond with "是". Otherwise respond "不"
 
 ## An example algorithm
 
-![](src/images/nice_136.png){fig-align="center"}
+![](images/nice_136.png){fig-align="center"}
 
 ## Related expertise-based tools
 
@@ -145,7 +146,7 @@ If so, respond with "是". Otherwise respond "不"
 
 . . .
 
-![](src/images/cue.png) . . .
+![](images/cue.png) . . .
 
 -   [Brilliant 1996 Master's dissertation](https://files.eric.ed.gov/fulltext/ED401916.pdf) looking at the state of "see also..." referencing in Ohio's public libraries
 
@@ -155,7 +156,7 @@ If so, respond with "是". Otherwise respond "不"
 ::: columns
 :::: {.column width="35%"}
 
-![](src/images/monitor.png)
+![](images/monitor.png)
 ::::
 
 :::: {.column width="60%"}
@@ -177,7 +178,7 @@ If so, respond with "是". Otherwise respond "不"
 
 . . .
 
-![https://commons.wikimedia.org/wiki/File:Supervised_machine_learning_in_a_nutshell.svg](src/images/sml.png)
+![https://commons.wikimedia.org/wiki/File:Supervised_machine_learning_in_a_nutshell.svg](images/sml.png)
 
 ## This is supervised learning
 
@@ -191,7 +192,7 @@ If so, respond with "是". Otherwise respond "不"
 
 ::: columns
 ::: {.column width="40%"}
-![[Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist)](src/images/mnist.png)
+![[Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist)](images/mnist.png)
 :::
 
 ::: {.column width="50%"}
@@ -208,15 +209,15 @@ Producing labelled datasets is hard:
 
 ## Unsupervised learning
 
-![](src/images/google.png){fig-align="center"}
+![](images/google.png){fig-align="center"}
 
 ## Unsupervised learning
 
-![](src/images/explain.png){fig-align="center"}
+![](images/explain.png){fig-align="center"}
 
 ## Unsupervised learning
 
-![](src/images/goögle.png){fig-align="center"}
+![](images/goögle.png){fig-align="center"}
 
 ## Unsupervised learning
 
@@ -238,7 +239,7 @@ What if we were more ambitious with the scope of our language model?
 
 ::: columns
 ::: {.column width="30%"}
-![](src/images/transformer.png)
+![](images/transformer.png)
 :::
 
 ::: {.column width="60%"}

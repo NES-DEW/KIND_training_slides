@@ -20,7 +20,7 @@
 ## Usual words of warning
 
 + No claims about expertise here 
-    + this is a beginner's session by a beginner </br>![](src/images/11hrs.png)
+    + this is a beginner's session by a beginner </br>![](images/11hrs.png)
     + definitely no stupid questions in this context
 + it's also an overview, rather than a focused training session
     + poll...
@@ -33,7 +33,7 @@
 :::: {.columns}
 
 ::: {.column width="45%"}
-![](src/images/nasa_1998.png)
+![](images/nasa_1998.png)
 <a href="view-source:https://web.archive.org/web/19981202170636/http://www.nasa.gov/">source</a>
 :::
 
@@ -42,7 +42,7 @@
 :::
 
 ::: {.column width="45%"}
-![](src/images/nasa_2023.png)
+![](images/nasa_2023.png)
 
 
 <a href="view-source:https://www.nasa.gov/">source</a>

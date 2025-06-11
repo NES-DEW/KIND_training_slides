@@ -1,0 +1,212 @@
+{{< include header.qmd >}}
+
+## Future sessions {.smaller}
+
+```{r}
+KINDR::training_sessions(tr_type = "skills", start_date = params$date, n = 5)
+```
+
+
+## Today, we'll talk about...
+
+- n
+- CIs
+- p-values
+- and, if we've time, external validity
+
+## Why do we need this at all?
+
++ most published papers are bilge, nonsense, and drivel:
+
+. . .
+
+>  for many current scientific fields, claimed research findings may often be simply accurate measures of the prevailing bias [@ioannidis2005]
+
+. . .
+
++ effective, quick, and coherent ways of judging published research are vital!
+
+## Skills, more than content
+
+## Sample size (n)
+
++ treatment effects are surpringly subtle
++ we often need to use large groups of participants to safely discover treatment effects
++ trials have grown:
+    + MRC streptomycin study, 1948, 109 participants [@streptom1948]
+    + WOSCOPS, 1995, 6595 participants [@shepherd1995]
+    + TRITON, 2009, 3534 participants [@montalescot2009]
+    + RE-LY, 2010, 18113 participants [@wallentin2010]
+
+## Cochrane story {.smaller}
+
+
+```{r}
+cochrane <- tibble::tribble(
+  ~name, ~ev.trt, ~n.trt, ~ev.ctrl, ~n.ctrl,
+  "Auckland",     36L,   532L,      60L,    538L,
+  "Block",      1L,    69L,       5L,     61L,
+  "Doran",      4L,    81L,      11L,     63L,
+  "Gamsu",     14L,   131L,      20L,    137L,
+  "Morrison",      3L,    67L,       7L,     59L,
+  "Papageorgiou",      1L,    71L,       7L,     75L,
+  "Tauesch",      8L,    56L,      10L,     71L
+) 
+
+cochrane |>
+  knitr::kable(caption = "Data from randomised trials before 1980 of corticosteroid therapy in premature labour and its effect on neonatal death.", col.names=c("Identifier", "Deaths (Treatment)", "n (Treatment)", "Deaths (Control)", "n (Control)" ))
+```
+
+## Forest plots
+
+
+```{r}
+#| echo: false
+#| eval: true
+#| message: false
+
+steroid <- rmeta::meta.MH(n.trt, n.ctrl, ev.trt, ev.ctrl,
+                   names=name, data=cochrane)
+plot(steroid, col = rmeta::meta.colors("RoyalBlue"))
+
+```
+
+
+## Forest plots
+
++ [useful intro](https://uk.cochrane.org/news/how-read-forest-plot)
++ one row per study
++ box size corresponds with study size (weight)
++ box location corresponds with odds ratio (OR)
++ whiskers (horizonal lines) showing the confidence interval of that OR
++ pooled effect show by the diamond
+    + size = total weight
+    + horizontal limits = confidence interval
+
+
+::: {.notes}
+
+1. how would you interpret the line representing a study crossing 1?
+1. how can individual lines cross 1, but the pooled diamond not cross 1?
+
+:::
+
+
+## Confidence intervals
+
++ intuition: the larger our sample, the more precise our estimates
++ confidence intervals are about describing that precision
+
+## Confidence intervals
+
++ imagine we're evaluating an intervention in a small population
++ 10% of the treatment arm get some outcome, compared to 12% in the control arm
++ relative risk in this trial population = 83% (that's just 10% / 12%)
++ **Q**: what will the relative risk be in the whole population?
+
+## Trial to treatment
+
+* we're can't conclude that the population relative risk will be 83%
+  * our research could have been very poor
+  * our trial population might have been very weird
+  * we might have just been lucky
+* this uncertainty = **sampling error**
+
+## The idea of sampling error
++ our measure of risk in our small population sample might not accurately reflect the true population risk
+    + AKA standard error
++ we can't say exactly how accurate our sample estimate is
+    + unless we know the true population risk 
++ but we can give an interval estimate for the likely range it might fall in = **confidence interval**
+
+## Confidence intervals
+
++ describes likely lower and upper values within which our estimate might lie
++ for our example with 83% relative risk, our confidence interval might be between 75% and 91% (made up figures!)
++ we could say "the chances are that our 'real' population risk would be between 75% and 91%" 
+
+## 95% CI
++ we conventionally use 95% confidence for CIs
++ 95% chance the 'true' population risk is contained within the interval
++ @sedgwick2014 is a good next-step reading on CIs
+
+## p-values
+
++ "the relative risk of death in the intervention group compared to the control group was 92% (95% CI 72-112%)"
+
++ what does this result mean to you?
++ is there a real reduction of death in the intervention group?
+      
+## p-values
+
++ a wide CI including 100% means our population risk might well be 100%
+  - the control group might not prevent death at all!
+
+## two kinds of statistical work
+1. descriptive statistics = what do these numbers look like
+2. inferential statistics = what do these numbers tell us
+
+## hypothesis testing
++ hypothesis = educated guess about outcomes
++ hypothesis vs null hypothesis
+    + what we think will happen if the treatment works
+    + what we think will happen if the treatment does not work
+
+## does the data support the hypothesis?
++ does the evidence (our sample data) support the hypothesis, or the null hypothesis?
++ we could use a two-tailed statistical test to compare the support for each
++ these tests give us a P-value, which is:
+
+. . .
+
+> ...the probability of obtaining the observed difference between treatment groups...if there was no difference between treatment groups [@sedgwick2014a]
+
+## P-values tell us about support
+
++ assume the null hypothesis is true (i.e. that our treatment does nothing)
++ the P-value tells us how often we'd expect to get results like our real results just by chance
++ P-values are probabilities, so reported as a number between 0 and 1
+
+## Significance
+
++ P-values tell us whether:
+  + our data supports our hypothesis (when P < 0.05), or
+  + our data supports the null hypothesis (when P is > 0.05)
++ **critical level of significance** = the arbitrary level below which P-values are assumed to be convincing
+    + usually P = 0.05 
+    + below that, the results are said to be statistically significant
+
+## External validity
++ see also worries about the logic of large trials in medicine [@penston2005] and elsewhere [@lortie-forgues2019] - "often uninformative"    
+
+## The problem of growing sample sizes
+
++ recruitment is hard
++ larger n = harder recruitment
+    + may end up relying on heterogeneous population
+      + e.g. @montalescot2009
+      + 3534 participants
+      + 707 sites
+      + 30 countries
+      
+## Trial and treatment populations
+
++ *wildly* dis-similar [@fortin2006]
++ co-morbidity example
+    + a database of 980 general-practice patients were assessed against inclusion critera from 5 blood pressure RCTs
+    + of eligible patients "89% to 100% had multiple chronic conditions"
+        + mean numbers ranged from 5.5 ± 3.3 to 11.7 ± 5.3
+
+## Pragmatic trials
+
+![(@patsopoulos2011)](images/05_prago.png)
+
+## References {.smaller}
+
+## Future sessions {.smaller}
+
+```{r}
+KINDR::training_sessions(tr_type = "skills", start_date = params$date, n = 5)
+```
+
+{{< include footer.qmd >}}
